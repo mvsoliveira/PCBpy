@@ -1,7 +1,6 @@
-# PCBpy
-A Cadence Allegro PCB schematics parser and verification tool
-
 ![Alt text](docs/logo.png?raw=true "Title")
+
+A Cadence Allegro PCB schematics parser and verification tool
 
 Also available in https://pypi.org/project/PCBpy/
 ```

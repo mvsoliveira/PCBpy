@@ -19,3 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ),
 )
+
+#Creating files and uploading to pypi
+#python setup.py sdist bdist_wheel
+#twine upload dist/*

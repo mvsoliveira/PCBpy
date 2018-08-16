@@ -12,6 +12,8 @@ import sys
 import csv
 
 
+
+
 def atoi(text):
     return int(text) if text.isdigit() else text
 
@@ -453,3 +455,79 @@ def replaceFields(template, entity, filename):
         template[l] = template[l].replace('<year>', yearstr)
     return template
 
+## cross-reference checks
+
+def skip_line(l,content,start_skip_conditions ):
+    for c in start_skip_conditions:
+        if content[l].startswith(c):
+            return True
+    return False
+
+
+def get_cross_refs(l, content):
+    nets = []
+    nets.append(content[l].split()[0])
+    nets.append(content[l].split()[1])
+    while True:
+        l += 1
+        if content[l].startswith(' '):
+            nets.append(content[l].split()[0])
+        else:
+            break
+    return (l, nets)
+
+
+def extract_vector_info(nets):
+    non_vec_nets = [n.split('<')[0] for n in nets]
+    return non_vec_nets
+
+
+def anywhere(c, n):
+    if c in n:
+        return True
+    else:
+        return False
+
+
+def endswith(c, n):
+    if n.endswith(c):
+        return True
+    else:
+        return False
+
+
+def check_cond(func, par, nets, nets_v):
+    ri = func(par, nets[0])
+    # iterating though nets
+    for n in nets:
+        if func(par, n) != ri:
+            print 'Net failed to {2:s} condition {0:s}. Net: {1:s}'.format(par, nets_v, func.func_name)
+            break
+
+
+def check_file(content, func, par, start_skip_conditions):
+    l = 0
+    while l < len(content):
+        # skipping line without cross reference information
+        if skip_line(l, content, start_skip_conditions):
+            l += 1
+            continue
+            # extracting cross reference nets
+        l, nets_v = get_cross_refs(l, content)
+        # extracting vector information
+        nets = extract_vector_info(nets_v)
+        # checking conditions
+        check_cond(func, par, nets, nets_v)
+
+
+def print_nets(content):
+    l = 0
+    while l < len(content):
+        if skip_line(l):
+            l += 1
+            continue
+        # extracting cross reference nets
+        l, nets_v = get_cross_refs(l, content)
+        # extracting vector information
+        nets = extract_vector_info(nets_v)
+        print nets

@@ -1,5 +1,6 @@
 from PCBpy import *
 
+
 schem_data = {
     'cad_filename': 'pstxref.dat',
     'loop_a_net': ('XCVU160', 'XCKU095', 'CON38P'),
@@ -43,3 +44,28 @@ part_specific_data = [
 
 for part in part_specific_data:
     PCBpy(part, schem_data)
+
+# checking cross references
+
+rfname = 'in/cad/basenets.txt'
+start_skip_conditions = ['%','Title:','Design:','Date:','Base','\n']
+
+with open(rfname) as rf:
+    content = rf.readlines()
+
+conditions = [
+    [endswith, 'P'],
+    [endswith, 'N'],
+    [endswith, '*'],
+    [anywhere, 'SCL'],
+    [anywhere, 'SDA'],
+    [anywhere, 'TCK'],
+    [anywhere, 'TDI'],
+    [anywhere, 'TDO'],
+    [anywhere, 'TMS'],
+    [anywhere, '12V'],
+]
+
+for c in conditions:
+    print "-----------------------------"
+    check_file(content, c[0], c[1], start_skip_conditions)

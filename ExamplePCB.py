@@ -14,7 +14,8 @@ part_specific_data = [
         'cad_instance': 'IC4',
         'gt_types': ('MGTH', 'MGTY'),
         'first_gtquad': 19,
-        'gtquad_initial': [1, 2]
+        'gtquad_initial': [1, 2],
+        'ibert_path':'localhost:3121/xilinx_tcf/*/0_1_0_*'
     },
     {
         'xlx_filename': 'xcvu9pflgc2104pkg.csv',
@@ -22,7 +23,8 @@ part_specific_data = [
         'cad_instance': 'IC15',
         'gt_types': ('MGTH', 'MGTY'),
         'first_gtquad': 19,
-        'gtquad_initial': [1, 2]
+        'gtquad_initial': [1, 2],
+        'ibert_path':'localhost:3121/xilinx_tcf/*/1_1_0_*'
     },
     {
         'xlx_filename': 'xcku095ffvb2104pkg.csv',
@@ -30,7 +32,8 @@ part_specific_data = [
         'cad_instance': 'IC39',
         'gt_types': ('MGTH', 'MGTY'),
         'first_gtquad': 24,
-        'gtquad_initial': [1, 2]
+        'gtquad_initial': [1, 2],
+        'ibert_path':'localhost:3121/xilinx_tcf/*/2_1_0_*'
     },
     {
         'xlx_filename': 'xczu3egsfvc784pkg.csv',
@@ -38,7 +41,8 @@ part_specific_data = [
         'cad_instance': 'IC84',
         'gt_types': ('PS_MGTRRX', 'PS_MGTRTX'),
         'first_gtquad': 5,
-        'gtquad_initial': [5]
+        'gtquad_initial': [5],
+        'ibert_path':'localhost:3121/xilinx_tcf/*/3_1_0_*'
     }
 ]
 

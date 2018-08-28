@@ -49,6 +49,7 @@ def PCBpy(part_specific_data, schem_data):
     first_gtquad = part_specific_data['first_gtquad']
     gtquad_initial = part_specific_data['gtquad_initial']
     gt_types = part_specific_data['gt_types']
+    ibert_path = part_specific_data['ibert_path']
 
     # importing CSV
     import csv
@@ -229,7 +230,7 @@ def PCBpy(part_specific_data, schem_data):
 
     # p_list.sort(key=lambda x: natural_keys(x[3])) # human sorting cad pin name
 
-    path_fmt = 'get_hw_sio_gts localhost:3121/xilinx_tcf/*/IBERT/Quad_{0:d}/MGT_X0Y{1:d}'
+    path_fmt = 'get_hw_sio_gts {ibert_path:s}/IBERT/Quad_{quad:d}/MGT_X0Y{channel:d}'
     cmd_fmt = '# pin_name: {2:s} | net_name: {3:s}\nset_property PORT.{0:s}POLARITY 1 [{1:s}] \ncommit_hw_sio [{1:s}]\n'
     tclpolarity_filename = entity + '_' + cad_instance + '_IBERT_SET_POLARITY.tcl'
     f = open('out/' + tclpolarity_filename, 'w')  # information file
@@ -244,7 +245,7 @@ def PCBpy(part_specific_data, schem_data):
             txrx = re.search(r"(RX|TX)", entry[3]).group()
             ## generating tcl commands
             if entry[4] == True:
-                path = path_fmt.format(quad, ich);
+                path = path_fmt.format(ibert_path=ibert_path, quad=quad, channel=ich);
                 cmd = cmd_fmt.format(txrx, path, entry[3], entry[1]);
                 f.write(cmd)
             ## generating polarity vector

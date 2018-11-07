@@ -230,7 +230,7 @@ def PCBpy(part_specific_data, schem_data):
 
     # p_list.sort(key=lambda x: natural_keys(x[3])) # human sorting cad pin name
 
-    path_fmt = 'get_hw_sio_gts {ibert_path:s}/IBERT/Quad_{quad:d}/MGT_X0Y{channel:d}'
+    path_fmt = 'get_hw_sio_gts {ibert_path:s}/IBERT/Quad_{quad:d}/MGT_X*Y{channel:d}'
     cmd_fmt = '# pin_name: {2:s} | net_name: {3:s}\nset_property PORT.{0:s}POLARITY 1 [{1:s}] \ncommit_hw_sio [{1:s}]\n'
     tclpolarity_filename = entity + '_' + cad_instance + '_IBERT_SET_POLARITY.tcl'
     f = open('out/' + tclpolarity_filename, 'w')  # information file
@@ -256,7 +256,7 @@ def PCBpy(part_specific_data, schem_data):
                 pol_dict[key] = pol_dict[key] or entry[4]
                 # generating transceiver list
             if 'N' not in entry[3]:  # getting only positive pins
-                ibertname = 'Quad_{0:d}/MGT_X0Y{1:d}'.format(quad, ich)
+                ibertname = 'Quad_{0:d}/MGT_X*Y{1:d}'.format(quad, ich)
                 # ibertname, cadpinname, pin, cadnetnamev
                 t_list.append([ibertname, entry[3], entry[0], entry[1]])
     f.close()

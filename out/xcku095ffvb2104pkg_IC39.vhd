@@ -5,8 +5,8 @@
 -- File       : xcku095ffvb2104pkg_IC39.vhd
 -- Author     : Marcos Oliveira
 -- Company    : CERN
--- Created    : 2018-08-28
--- Last update: 2018-08-28
+-- Created    : 2018-11-07
+-- Last update: 2018-11-07
 -- Platform   : Vivado 2016.3 and Mentor Modelsim SE-64 10.1c
 -- Standard   : VHDL'93/02
 ----------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@
 ----------------------------------------------------------------------------------------------------------------------
 -- Revisions  :
 -- Date        Version  Author  Description
--- 2018-08-28  1.0      msilvaol	Created
+-- 2018-11-07  1.0      msilvaol	Created
 ----------------------------------------------------------------------------------------------------------------------
 
 entity xcku095ffvb2104pkg is
@@ -44,8 +44,8 @@ CTP_MGTCLK_N         : inout std_logic;
 CTP_MGTCLK_P         : inout std_logic;
 DDR_CLK_TERM_N       : inout std_logic;
 DDR_CLK_TERM_P       : inout std_logic;
-GBE_T2Z_N            : inout std_logic;
-GBE_T2Z_P            : inout std_logic;
+GBE_MGTCLK_N         : inout std_logic_vector(2 downto 2);
+GBE_MGTCLK_P         : inout std_logic_vector(2 downto 2);
 GBE_Z2T_N            : inout std_logic;
 GBE_Z2T_P            : inout std_logic;
 MPTX_N               : inout std_logic_vector(11 downto 0);
@@ -124,9 +124,9 @@ Z2T_AXI_CLK          : inout std_logic;
 Z2T_AXI_D            : inout std_logic_vector(21 downto 0);
 ZYQ_CLK_N            : inout std_logic_vector(2 downto 2);
 ZYQ_CLK_P            : inout std_logic_vector(2 downto 2);
-ZYQ_MGTCLK_N         : inout std_logic_vector(2 downto 2);
-ZYQ_MGTCLK_P         : inout std_logic_vector(2 downto 2);
-ZYQ_TRP              : inout std_logic_vector(7 downto 0)
+ZYQ_TRP              : inout std_logic_vector(7 downto 0);
+Z_TX_C_N             : inout std_logic;
+Z_TX_C_P             : inout std_logic
 );
 end entity xcku095ffvb2104pkg;
 

@@ -5,8 +5,8 @@
 ## File       : xcku095ffvb2104pkg_IC39.xdc
 ## Author     : Marcos Oliveira
 ## Company    : CERN
-## Created    : 2018-08-28
-## Last update: 2018-08-28
+## Created    : 2018-11-07
+## Last update: 2018-11-07
 ## Platform   : Vivado 2017.1 
 ## Standard   : VHDL'93/02
 ######################################################################################################################
@@ -16,7 +16,7 @@
 ######################################################################################################################
 ## Revisions  :
 ## Date        Version  Author  Description
-## 2018-08-28  1.0      msilvaol	Created
+## 2018-11-07  1.0      msilvaol	Created
 ######################################################################################################################
 
 
@@ -429,8 +429,8 @@ set_property PACKAGE_PIN P10  [get_ports CTP_MGTCLK_N]                        # 
 set_property PACKAGE_PIN P11  [get_ports CTP_MGTCLK_P]                        # pin name: MGTREFCLK1P_230                         
 set_property PACKAGE_PIN AY36 [get_ports DDR_CLK_TERM_N]                      # pin name: IO_L14N_T2L_N3_GC_45                    
 set_property PACKAGE_PIN AY35 [get_ports DDR_CLK_TERM_P]                      # pin name: IO_L14P_T2L_N2_GC_45                    
-set_property PACKAGE_PIN AW41 [get_ports GBE_T2Z_N]                           # pin name: MGTYTXN3_124                            
-set_property PACKAGE_PIN AW40 [get_ports GBE_T2Z_P]                           # pin name: MGTYTXP3_124                            
+set_property PACKAGE_PIN AV39 [get_ports GBE_MGTCLK_N[2]]                     # pin name: MGTREFCLK0N_125                         
+set_property PACKAGE_PIN AV38 [get_ports GBE_MGTCLK_P[2]]                     # pin name: MGTREFCLK0P_125                         
 set_property PACKAGE_PIN AV44 [get_ports GBE_Z2T_N]                           # pin name: MGTYRXN3_124                            
 set_property PACKAGE_PIN AV43 [get_ports GBE_Z2T_P]                           # pin name: MGTYRXP3_124                            
 set_property PACKAGE_PIN Y6   [get_ports MPTX_N[0]]                           # pin name: MGTHTXN1_229                            
@@ -546,6 +546,7 @@ set_property PACKAGE_PIN AV33 [get_ports TRP_DDR_A[11]]                       # 
 set_property PACKAGE_PIN AM34 [get_ports TRP_DDR_A[12]]                       # pin name: IO_L24N_T3U_N11_45                      
 set_property PACKAGE_PIN AY33 [get_ports TRP_DDR_A[13]]                       # pin name: IO_L15P_T2L_N4_AD11P_45                 
 set_property PACKAGE_PIN AT33 [get_ports TRP_DDR_A[14]]                       # pin name: IO_L19P_T3L_N0_DBC_AD9P_45              
+set_property PACKAGE_PIN BD36 [get_ports TRP_DDR_A[15]]                       # pin name: IO_L9P_T1L_N4_AD12P_45                  
 set_property PACKAGE_PIN BD35 [get_ports TRP_DDR_A[16]]                       # pin name: IO_L8P_T1L_N2_AD5P_45                   
 set_property PACKAGE_PIN AP34 [get_ports TRP_DDR_ACTn]                        # pin name: IO_L21N_T3L_N5_AD8N_45                  
 set_property PACKAGE_PIN BE38 [get_ports TRP_DDR_ALERTn]                      # pin name: IO_L2P_T0L_N2_45                        
@@ -564,70 +565,70 @@ set_property PACKAGE_PIN AJ27 [get_ports TRP_DDR_DM[4]]                       # 
 set_property PACKAGE_PIN AH34 [get_ports TRP_DDR_DM[5]]                       # pin name: IO_L7P_T1L_N0_QBC_AD13P_46              
 set_property PACKAGE_PIN AE31 [get_ports TRP_DDR_DM[6]]                       # pin name: IO_L13P_T2L_N0_GC_QBC_46                
 set_property PACKAGE_PIN AA32 [get_ports TRP_DDR_DM[7]]                       # pin name: IO_L19P_T3L_N0_DBC_AD9P_46              
-set_property PACKAGE_PIN BF30 [get_ports TRP_DDR_DQ[0]]                       # pin name: IO_L3N_T0L_N5_AD15N_44                  
-set_property PACKAGE_PIN BE32 [get_ports TRP_DDR_DQ[1]]                       # pin name: IO_L2N_T0L_N3_44                        
-set_property PACKAGE_PIN BD29 [get_ports TRP_DDR_DQ[2]]                       # pin name: IO_L6N_T0U_N11_AD6N_44                  
-set_property PACKAGE_PIN BE33 [get_ports TRP_DDR_DQ[3]]                       # pin name: IO_L5N_T0U_N9_AD14N_44                  
-set_property PACKAGE_PIN BE31 [get_ports TRP_DDR_DQ[4]]                       # pin name: IO_L2P_T0L_N2_44                        
+set_property PACKAGE_PIN BE31 [get_ports TRP_DDR_DQ[0]]                       # pin name: IO_L2P_T0L_N2_44                        
+set_property PACKAGE_PIN BC29 [get_ports TRP_DDR_DQ[1]]                       # pin name: IO_L6P_T0U_N10_AD6P_44                  
+set_property PACKAGE_PIN BE33 [get_ports TRP_DDR_DQ[2]]                       # pin name: IO_L5N_T0U_N9_AD14N_44                  
+set_property PACKAGE_PIN BD29 [get_ports TRP_DDR_DQ[3]]                       # pin name: IO_L6N_T0U_N11_AD6N_44                  
+set_property PACKAGE_PIN BF30 [get_ports TRP_DDR_DQ[4]]                       # pin name: IO_L3N_T0L_N5_AD15N_44                  
 set_property PACKAGE_PIN BE30 [get_ports TRP_DDR_DQ[5]]                       # pin name: IO_L3P_T0L_N4_AD15P_44                  
-set_property PACKAGE_PIN BC29 [get_ports TRP_DDR_DQ[6]]                       # pin name: IO_L6P_T0U_N10_AD6P_44                  
+set_property PACKAGE_PIN BE32 [get_ports TRP_DDR_DQ[6]]                       # pin name: IO_L2N_T0L_N3_44                        
 set_property PACKAGE_PIN BD33 [get_ports TRP_DDR_DQ[7]]                       # pin name: IO_L5P_T0U_N8_AD14P_44                  
-set_property PACKAGE_PIN BA29 [get_ports TRP_DDR_DQ[8]]                       # pin name: IO_L9P_T1L_N4_AD12P_44                  
-set_property PACKAGE_PIN BB31 [get_ports TRP_DDR_DQ[9]]                       # pin name: IO_L8N_T1L_N3_AD5N_44                   
-set_property PACKAGE_PIN AY30 [get_ports TRP_DDR_DQ[10]]                      # pin name: IO_L11P_T1U_N8_GC_44                    
-set_property PACKAGE_PIN BA30 [get_ports TRP_DDR_DQ[11]]                      # pin name: IO_L11N_T1U_N9_GC_44                    
-set_property PACKAGE_PIN AY31 [get_ports TRP_DDR_DQ[12]]                      # pin name: IO_L12P_T1U_N10_GC_44                   
-set_property PACKAGE_PIN BB29 [get_ports TRP_DDR_DQ[13]]                      # pin name: IO_L9N_T1L_N5_AD12N_44                  
-set_property PACKAGE_PIN AY32 [get_ports TRP_DDR_DQ[14]]                      # pin name: IO_L12N_T1U_N11_GC_44                   
-set_property PACKAGE_PIN BB30 [get_ports TRP_DDR_DQ[15]]                      # pin name: IO_L8P_T1L_N2_AD5P_44                   
-set_property PACKAGE_PIN AV32 [get_ports TRP_DDR_DQ[16]]                      # pin name: IO_L15N_T2L_N5_AD11N_44                 
+set_property PACKAGE_PIN BB30 [get_ports TRP_DDR_DQ[8]]                       # pin name: IO_L8P_T1L_N2_AD5P_44                   
+set_property PACKAGE_PIN AY32 [get_ports TRP_DDR_DQ[9]]                       # pin name: IO_L12N_T1U_N11_GC_44                   
+set_property PACKAGE_PIN BB29 [get_ports TRP_DDR_DQ[10]]                      # pin name: IO_L9N_T1L_N5_AD12N_44                  
+set_property PACKAGE_PIN AY31 [get_ports TRP_DDR_DQ[11]]                      # pin name: IO_L12P_T1U_N10_GC_44                   
+set_property PACKAGE_PIN BA30 [get_ports TRP_DDR_DQ[12]]                      # pin name: IO_L11N_T1U_N9_GC_44                    
+set_property PACKAGE_PIN AY30 [get_ports TRP_DDR_DQ[13]]                      # pin name: IO_L11P_T1U_N8_GC_44                    
+set_property PACKAGE_PIN BB31 [get_ports TRP_DDR_DQ[14]]                      # pin name: IO_L8N_T1L_N3_AD5N_44                   
+set_property PACKAGE_PIN BA29 [get_ports TRP_DDR_DQ[15]]                      # pin name: IO_L9P_T1L_N4_AD12P_44                  
+set_property PACKAGE_PIN AW31 [get_ports TRP_DDR_DQ[16]]                      # pin name: IO_L14N_T2L_N3_GC_44                    
 set_property PACKAGE_PIN AU31 [get_ports TRP_DDR_DQ[17]]                      # pin name: IO_L17N_T2U_N9_AD10N_44                 
-set_property PACKAGE_PIN AV31 [get_ports TRP_DDR_DQ[18]]                      # pin name: IO_L14P_T2L_N2_GC_44                    
-set_property PACKAGE_PIN AT30 [get_ports TRP_DDR_DQ[19]]                      # pin name: IO_L18N_T2U_N11_AD2N_44                 
-set_property PACKAGE_PIN AU32 [get_ports TRP_DDR_DQ[20]]                      # pin name: IO_L15P_T2L_N4_AD11P_44                 
-set_property PACKAGE_PIN AU30 [get_ports TRP_DDR_DQ[21]]                      # pin name: IO_L17P_T2U_N8_AD10P_44                 
-set_property PACKAGE_PIN AW31 [get_ports TRP_DDR_DQ[22]]                      # pin name: IO_L14N_T2L_N3_GC_44                    
-set_property PACKAGE_PIN AT29 [get_ports TRP_DDR_DQ[23]]                      # pin name: IO_L18P_T2U_N10_AD2P_44                 
-set_property PACKAGE_PIN AN31 [get_ports TRP_DDR_DQ[24]]                      # pin name: IO_L23N_T3U_N9_44                       
-set_property PACKAGE_PIN AP30 [get_ports TRP_DDR_DQ[25]]                      # pin name: IO_L20P_T3L_N2_AD1P_44                  
-set_property PACKAGE_PIN AL29 [get_ports TRP_DDR_DQ[26]]                      # pin name: IO_L24P_T3U_N10_44                      
-set_property PACKAGE_PIN AP29 [get_ports TRP_DDR_DQ[27]]                      # pin name: IO_L21N_T3L_N5_AD8N_44                  
-set_property PACKAGE_PIN AM31 [get_ports TRP_DDR_DQ[28]]                      # pin name: IO_L23P_T3U_N8_44                       
-set_property PACKAGE_PIN AR30 [get_ports TRP_DDR_DQ[29]]                      # pin name: IO_L20N_T3L_N3_AD1N_44                  
-set_property PACKAGE_PIN AL30 [get_ports TRP_DDR_DQ[30]]                      # pin name: IO_L24N_T3U_N11_44                      
-set_property PACKAGE_PIN AN29 [get_ports TRP_DDR_DQ[31]]                      # pin name: IO_L21P_T3L_N4_AD8P_44                  
-set_property PACKAGE_PIN AJ30 [get_ports TRP_DDR_DQ[32]]                      # pin name: IO_L3N_T0L_N5_AD15N_46                  
+set_property PACKAGE_PIN AV32 [get_ports TRP_DDR_DQ[18]]                      # pin name: IO_L15N_T2L_N5_AD11N_44                 
+set_property PACKAGE_PIN AU30 [get_ports TRP_DDR_DQ[19]]                      # pin name: IO_L17P_T2U_N8_AD10P_44                 
+set_property PACKAGE_PIN AT29 [get_ports TRP_DDR_DQ[20]]                      # pin name: IO_L18P_T2U_N10_AD2P_44                 
+set_property PACKAGE_PIN AT30 [get_ports TRP_DDR_DQ[21]]                      # pin name: IO_L18N_T2U_N11_AD2N_44                 
+set_property PACKAGE_PIN AV31 [get_ports TRP_DDR_DQ[22]]                      # pin name: IO_L14P_T2L_N2_GC_44                    
+set_property PACKAGE_PIN AU32 [get_ports TRP_DDR_DQ[23]]                      # pin name: IO_L15P_T2L_N4_AD11P_44                 
+set_property PACKAGE_PIN AN29 [get_ports TRP_DDR_DQ[24]]                      # pin name: IO_L21P_T3L_N4_AD8P_44                  
+set_property PACKAGE_PIN AL30 [get_ports TRP_DDR_DQ[25]]                      # pin name: IO_L24N_T3U_N11_44                      
+set_property PACKAGE_PIN AR30 [get_ports TRP_DDR_DQ[26]]                      # pin name: IO_L20N_T3L_N3_AD1N_44                  
+set_property PACKAGE_PIN AM31 [get_ports TRP_DDR_DQ[27]]                      # pin name: IO_L23P_T3U_N8_44                       
+set_property PACKAGE_PIN AP29 [get_ports TRP_DDR_DQ[28]]                      # pin name: IO_L21N_T3L_N5_AD8N_44                  
+set_property PACKAGE_PIN AL29 [get_ports TRP_DDR_DQ[29]]                      # pin name: IO_L24P_T3U_N10_44                      
+set_property PACKAGE_PIN AP30 [get_ports TRP_DDR_DQ[30]]                      # pin name: IO_L20P_T3L_N2_AD1P_44                  
+set_property PACKAGE_PIN AN31 [get_ports TRP_DDR_DQ[31]]                      # pin name: IO_L23N_T3U_N9_44                       
+set_property PACKAGE_PIN AJ31 [get_ports TRP_DDR_DQ[32]]                      # pin name: IO_L6P_T0U_N10_AD6P_46                  
 set_property PACKAGE_PIN AJ29 [get_ports TRP_DDR_DQ[33]]                      # pin name: IO_L3P_T0L_N4_AD15P_46                  
-set_property PACKAGE_PIN AJ31 [get_ports TRP_DDR_DQ[34]]                      # pin name: IO_L6P_T0U_N10_AD6P_46                  
-set_property PACKAGE_PIN AK28 [get_ports TRP_DDR_DQ[35]]                      # pin name: IO_L2N_T0L_N3_46                        
-set_property PACKAGE_PIN AG30 [get_ports TRP_DDR_DQ[36]]                      # pin name: IO_L5N_T0U_N9_AD14N_46                  
-set_property PACKAGE_PIN AJ28 [get_ports TRP_DDR_DQ[37]]                      # pin name: IO_L2P_T0L_N2_46                        
-set_property PACKAGE_PIN AK31 [get_ports TRP_DDR_DQ[38]]                      # pin name: IO_L6N_T0U_N11_AD6N_46                  
+set_property PACKAGE_PIN AG30 [get_ports TRP_DDR_DQ[34]]                      # pin name: IO_L5N_T0U_N9_AD14N_46                  
+set_property PACKAGE_PIN AJ28 [get_ports TRP_DDR_DQ[35]]                      # pin name: IO_L2P_T0L_N2_46                        
+set_property PACKAGE_PIN AK31 [get_ports TRP_DDR_DQ[36]]                      # pin name: IO_L6N_T0U_N11_AD6N_46                  
+set_property PACKAGE_PIN AK28 [get_ports TRP_DDR_DQ[37]]                      # pin name: IO_L2N_T0L_N3_46                        
+set_property PACKAGE_PIN AJ30 [get_ports TRP_DDR_DQ[38]]                      # pin name: IO_L3N_T0L_N5_AD15N_46                  
 set_property PACKAGE_PIN AG29 [get_ports TRP_DDR_DQ[39]]                      # pin name: IO_L5P_T0U_N8_AD14P_46                  
-set_property PACKAGE_PIN AF33 [get_ports TRP_DDR_DQ[40]]                      # pin name: IO_L12N_T1U_N11_GC_46                   
-set_property PACKAGE_PIN AF34 [get_ports TRP_DDR_DQ[41]]                      # pin name: IO_L9P_T1L_N4_AD12P_46                  
-set_property PACKAGE_PIN AG31 [get_ports TRP_DDR_DQ[42]]                      # pin name: IO_L11P_T1U_N8_GC_46                    
-set_property PACKAGE_PIN AJ33 [get_ports TRP_DDR_DQ[43]]                      # pin name: IO_L8N_T1L_N3_AD5N_46                   
-set_property PACKAGE_PIN AF32 [get_ports TRP_DDR_DQ[44]]                      # pin name: IO_L12P_T1U_N10_GC_46                   
-set_property PACKAGE_PIN AH33 [get_ports TRP_DDR_DQ[45]]                      # pin name: IO_L8P_T1L_N2_AD5P_46                   
-set_property PACKAGE_PIN AG32 [get_ports TRP_DDR_DQ[46]]                      # pin name: IO_L11N_T1U_N9_GC_46                    
-set_property PACKAGE_PIN AG34 [get_ports TRP_DDR_DQ[47]]                      # pin name: IO_L9N_T1L_N5_AD12N_46                  
-set_property PACKAGE_PIN AE33 [get_ports TRP_DDR_DQ[48]]                      # pin name: IO_L14N_T2L_N3_GC_46                    
-set_property PACKAGE_PIN AD33 [get_ports TRP_DDR_DQ[49]]                      # pin name: IO_L14P_T2L_N2_GC_46                    
-set_property PACKAGE_PIN AF30 [get_ports TRP_DDR_DQ[50]]                      # pin name: IO_L15N_T2L_N5_AD11N_46                 
+set_property PACKAGE_PIN AG34 [get_ports TRP_DDR_DQ[40]]                      # pin name: IO_L9N_T1L_N5_AD12N_46                  
+set_property PACKAGE_PIN AG32 [get_ports TRP_DDR_DQ[41]]                      # pin name: IO_L11N_T1U_N9_GC_46                    
+set_property PACKAGE_PIN AH33 [get_ports TRP_DDR_DQ[42]]                      # pin name: IO_L8P_T1L_N2_AD5P_46                   
+set_property PACKAGE_PIN AF32 [get_ports TRP_DDR_DQ[43]]                      # pin name: IO_L12P_T1U_N10_GC_46                   
+set_property PACKAGE_PIN AJ33 [get_ports TRP_DDR_DQ[44]]                      # pin name: IO_L8N_T1L_N3_AD5N_46                   
+set_property PACKAGE_PIN AG31 [get_ports TRP_DDR_DQ[45]]                      # pin name: IO_L11P_T1U_N8_GC_46                    
+set_property PACKAGE_PIN AF34 [get_ports TRP_DDR_DQ[46]]                      # pin name: IO_L9P_T1L_N4_AD12P_46                  
+set_property PACKAGE_PIN AF33 [get_ports TRP_DDR_DQ[47]]                      # pin name: IO_L12N_T1U_N11_GC_46                   
+set_property PACKAGE_PIN AF30 [get_ports TRP_DDR_DQ[48]]                      # pin name: IO_L15N_T2L_N5_AD11N_46                 
+set_property PACKAGE_PIN AC34 [get_ports TRP_DDR_DQ[49]]                      # pin name: IO_L18P_T2U_N10_AD2P_46                 
+set_property PACKAGE_PIN AE33 [get_ports TRP_DDR_DQ[50]]                      # pin name: IO_L14N_T2L_N3_GC_46                    
 set_property PACKAGE_PIN AC33 [get_ports TRP_DDR_DQ[51]]                      # pin name: IO_L17N_T2U_N9_AD10N_46                 
-set_property PACKAGE_PIN AD34 [get_ports TRP_DDR_DQ[52]]                      # pin name: IO_L18N_T2U_N11_AD2N_46                 
-set_property PACKAGE_PIN AC34 [get_ports TRP_DDR_DQ[53]]                      # pin name: IO_L18P_T2U_N10_AD2P_46                 
-set_property PACKAGE_PIN AE30 [get_ports TRP_DDR_DQ[54]]                      # pin name: IO_L15P_T2L_N4_AD11P_46                 
-set_property PACKAGE_PIN AC32 [get_ports TRP_DDR_DQ[55]]                      # pin name: IO_L17P_T2U_N8_AD10P_46                 
-set_property PACKAGE_PIN Y32  [get_ports TRP_DDR_DQ[56]]                      # pin name: IO_L23P_T3U_N8_46                       
-set_property PACKAGE_PIN W34  [get_ports TRP_DDR_DQ[57]]                      # pin name: IO_L24N_T3U_N11_46                      
-set_property PACKAGE_PIN W30  [get_ports TRP_DDR_DQ[58]]                      # pin name: IO_L21P_T3L_N4_AD8P_46                  
-set_property PACKAGE_PIN AB34 [get_ports TRP_DDR_DQ[59]]                      # pin name: IO_L20N_T3L_N3_AD1N_46                  
-set_property PACKAGE_PIN W33  [get_ports TRP_DDR_DQ[60]]                      # pin name: IO_L24P_T3U_N10_46                      
-set_property PACKAGE_PIN AA34 [get_ports TRP_DDR_DQ[61]]                      # pin name: IO_L20P_T3L_N2_AD1P_46                  
-set_property PACKAGE_PIN Y30  [get_ports TRP_DDR_DQ[62]]                      # pin name: IO_L21N_T3L_N5_AD8N_46                  
-set_property PACKAGE_PIN Y33  [get_ports TRP_DDR_DQ[63]]                      # pin name: IO_L23N_T3U_N9_46                       
+set_property PACKAGE_PIN AE30 [get_ports TRP_DDR_DQ[52]]                      # pin name: IO_L15P_T2L_N4_AD11P_46                 
+set_property PACKAGE_PIN AC32 [get_ports TRP_DDR_DQ[53]]                      # pin name: IO_L17P_T2U_N8_AD10P_46                 
+set_property PACKAGE_PIN AD34 [get_ports TRP_DDR_DQ[54]]                      # pin name: IO_L18N_T2U_N11_AD2N_46                 
+set_property PACKAGE_PIN AD33 [get_ports TRP_DDR_DQ[55]]                      # pin name: IO_L14P_T2L_N2_GC_46                    
+set_property PACKAGE_PIN Y33  [get_ports TRP_DDR_DQ[56]]                      # pin name: IO_L23N_T3U_N9_46                       
+set_property PACKAGE_PIN Y30  [get_ports TRP_DDR_DQ[57]]                      # pin name: IO_L21N_T3L_N5_AD8N_46                  
+set_property PACKAGE_PIN AA34 [get_ports TRP_DDR_DQ[58]]                      # pin name: IO_L20P_T3L_N2_AD1P_46                  
+set_property PACKAGE_PIN W33  [get_ports TRP_DDR_DQ[59]]                      # pin name: IO_L24P_T3U_N10_46                      
+set_property PACKAGE_PIN AB34 [get_ports TRP_DDR_DQ[60]]                      # pin name: IO_L20N_T3L_N3_AD1N_46                  
+set_property PACKAGE_PIN W30  [get_ports TRP_DDR_DQ[61]]                      # pin name: IO_L21P_T3L_N4_AD8P_46                  
+set_property PACKAGE_PIN W34  [get_ports TRP_DDR_DQ[62]]                      # pin name: IO_L24N_T3U_N11_46                      
+set_property PACKAGE_PIN Y32  [get_ports TRP_DDR_DQ[63]]                      # pin name: IO_L23P_T3U_N8_46                       
 set_property PACKAGE_PIN BD31 [get_ports TRP_DDR_DQS_N[0]]                    # pin name: IO_L4N_T0U_N7_DBC_AD7N_44               
 set_property PACKAGE_PIN BB32 [get_ports TRP_DDR_DQS_N[1]]                    # pin name: IO_L10N_T1U_N7_QBC_AD4N_44              
 set_property PACKAGE_PIN AV29 [get_ports TRP_DDR_DQS_N[2]]                    # pin name: IO_L16N_T2U_N7_QBC_AD3N_44              
@@ -771,8 +772,6 @@ set_property PACKAGE_PIN AU20 [get_ports Z2T_AXI_D[20]]                       # 
 set_property PACKAGE_PIN AT20 [get_ports Z2T_AXI_D[21]]                       # pin name: IO_L14P_T2L_N2_GC_66                    
 set_property PACKAGE_PIN AW19 [get_ports ZYQ_CLK_N[2]]                        # pin name: IO_L12N_T1U_N11_GC_66                   
 set_property PACKAGE_PIN AV19 [get_ports ZYQ_CLK_P[2]]                        # pin name: IO_L12P_T1U_N10_GC_66                   
-set_property PACKAGE_PIN AV39 [get_ports ZYQ_MGTCLK_N[2]]                     # pin name: MGTREFCLK0N_125                         
-set_property PACKAGE_PIN AV38 [get_ports ZYQ_MGTCLK_P[2]]                     # pin name: MGTREFCLK0P_125                         
 set_property PACKAGE_PIN BB27 [get_ports ZYQ_TRP[0]]                          # pin name: IO_L8N_T1L_N3_AD5N_A17_65               
 set_property PACKAGE_PIN BA27 [get_ports ZYQ_TRP[1]]                          # pin name: IO_L9P_T1L_N4_AD12P_A14_D30_65          
 set_property PACKAGE_PIN BA28 [get_ports ZYQ_TRP[2]]                          # pin name: IO_L9N_T1L_N5_AD12N_A15_D31_65          
@@ -781,6 +780,8 @@ set_property PACKAGE_PIN AV27 [get_ports ZYQ_TRP[4]]                          # 
 set_property PACKAGE_PIN AV28 [get_ports ZYQ_TRP[5]]                          # pin name: IO_L14N_T2L_N3_GC_A05_D21_65            
 set_property PACKAGE_PIN AU26 [get_ports ZYQ_TRP[6]]                          # pin name: IO_L15P_T2L_N4_AD11P_A02_D18_65         
 set_property PACKAGE_PIN AU27 [get_ports ZYQ_TRP[7]]                          # pin name: IO_L15N_T2L_N5_AD11N_A03_D19_65         
+set_property PACKAGE_PIN AW41 [get_ports Z_TX_C_N]                            # pin name: MGTYTXN3_124                            
+set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # pin name: MGTYTXP3_124                            
 
 ########################################################################################################################
 ###                                               Non-constrained pins                                               ###
@@ -1610,7 +1611,6 @@ set_property PACKAGE_PIN AU27 [get_ports ZYQ_TRP[7]]                          # 
 # set_property PACKAGE_PIN BB16 [get_ports NC]                                  # pin name: IO_T1U_N12_67                           
 # set_property PACKAGE_PIN AV17 [get_ports NC]                                  # pin name: IO_T1U_N12_66                           
 # set_property PACKAGE_PIN BD39 [get_ports NC]                                  # pin name: IO_L5N_T0U_N9_AD14N_45                  
-# set_property PACKAGE_PIN BD36 [get_ports NC]                                  # pin name: IO_L9P_T1L_N4_AD12P_45                  
 # set_property PACKAGE_PIN R41  [get_ports NC]                                  # pin name: MGTYTXN2_130                            
 # set_property PACKAGE_PIN R40  [get_ports NC]                                  # pin name: MGTYTXP2_130                            
 # set_property PACKAGE_PIN AF10 [get_ports NC]                                  # pin name: MGTREFCLK1N_227                         
@@ -1972,7 +1972,6 @@ set_property PACKAGE_PIN AU27 [get_ports ZYQ_TRP[7]]                          # 
 # set_property PACKAGE_PIN M23  [get_ports P1V8]                                # pin name: VCCO_71                                 
 # set_property PACKAGE_PIN AC30 [get_ports P1V8]                                # pin name: VCCAUX                                  
 # set_property PACKAGE_PIN B13  [get_ports P1V8]                                # pin name: VCCO_69                                 
-# set_property PACKAGE_PIN AM23 [get_ports P1V8]                                # pin name: VCCO_84                                 
 # set_property PACKAGE_PIN P27  [get_ports P1V8]                                # pin name: VCCO_51                                 
 # set_property PACKAGE_PIN L26  [get_ports P1V8]                                # pin name: VCCO_51                                 
 # set_property PACKAGE_PIN BC10 [get_ports P1V8]                                # pin name: VCCO_68                                 
@@ -1982,7 +1981,6 @@ set_property PACKAGE_PIN AU27 [get_ports ZYQ_TRP[7]]                          # 
 # set_property PACKAGE_PIN AD29 [get_ports P1V8]                                # pin name: VCCAUX                                  
 # set_property PACKAGE_PIN AJ26 [get_ports P1V8]                                # pin name: VCCAUX_IO                               
 # set_property PACKAGE_PIN A16  [get_ports P1V8]                                # pin name: VCCO_69                                 
-# set_property PACKAGE_PIN AT21 [get_ports P1V8]                                # pin name: VCCO_84                                 
 # set_property PACKAGE_PIN AU18 [get_ports P1V8]                                # pin name: VCCO_66                                 
 # set_property PACKAGE_PIN J22  [get_ports P1V8]                                # pin name: VCCO_71                                 
 # set_property PACKAGE_PIN AV25 [get_ports P1V8]                                # pin name: VCCO_65                                 
@@ -2020,13 +2018,11 @@ set_property PACKAGE_PIN AU27 [get_ports ZYQ_TRP[7]]                          # 
 # set_property PACKAGE_PIN T31  [get_ports P1V8]                                # pin name: VCCO_49                                 
 # set_property PACKAGE_PIN R34  [get_ports P1V8]                                # pin name: VCCO_49                                 
 # set_property PACKAGE_PIN AH27 [get_ports P1V8]                                # pin name: VCCAUX_IO                               
-# set_property PACKAGE_PIN AR24 [get_ports P1V8]                                # pin name: VCCO_84                                 
 # set_property PACKAGE_PIN AG28 [get_ports P1V8]                                # pin name: VCCAUX_IO                               
 # set_property PACKAGE_PIN AA30 [get_ports P1V8]                                # pin name: VCCAUX                                  
 # set_property PACKAGE_PIN AB27 [get_ports P1V8]                                # pin name: VCCAUX_IO                               
 # set_property PACKAGE_PIN AB29 [get_ports P1V8]                                # pin name: VCCAUX                                  
 # set_property PACKAGE_PIN D27  [get_ports P1V8]                                # pin name: VCCO_51                                 
-# set_property PACKAGE_PIN AW22 [get_ports P1V8]                                # pin name: VCCO_84                                 
 # set_property PACKAGE_PIN BF11 [get_ports P1V8]                                # pin name: VCCO_68                                 
 # set_property PACKAGE_PIN D17  [get_ports P1V8]                                # pin name: VCCO_70                                 
 # set_property PACKAGE_PIN V27  [get_ports P1V8]                                # pin name: VCCAUX_IO                               
@@ -2040,6 +2036,10 @@ set_property PACKAGE_PIN AU27 [get_ports ZYQ_TRP[7]]                          # 
 # set_property PACKAGE_PIN BD7  [get_ports P1V8]                                # pin name: VCCO_68                                 
 # set_property PACKAGE_PIN AP27 [get_ports P1V8]                                # pin name: VCCO_65                                 
 # set_property PACKAGE_PIN E34  [get_ports P1V8]                                # pin name: VCCO_50                                 
+# set_property PACKAGE_PIN AM23 [get_ports P2V5]                                # pin name: VCCO_84                                 
+# set_property PACKAGE_PIN AT21 [get_ports P2V5]                                # pin name: VCCO_84                                 
+# set_property PACKAGE_PIN AR24 [get_ports P2V5]                                # pin name: VCCO_84                                 
+# set_property PACKAGE_PIN AW22 [get_ports P2V5]                                # pin name: VCCO_84                                 
 # set_property PACKAGE_PIN BC20 [get_ports P3V3]                                # pin name: VCCO_94                                 
 # set_property PACKAGE_PIN BB23 [get_ports P3V3]                                # pin name: VCCO_94                                 
 # set_property PACKAGE_PIN BE24 [get_ports P3V3]                                # pin name: VCCO_94                                 

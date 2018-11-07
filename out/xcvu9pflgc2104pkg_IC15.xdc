@@ -5,8 +5,8 @@
 ## File       : xcvu9pflgc2104pkg_IC15.xdc
 ## Author     : Marcos Oliveira
 ## Company    : CERN
-## Created    : 2018-08-28
-## Last update: 2018-08-28
+## Created    : 2018-11-07
+## Last update: 2018-11-07
 ## Platform   : Vivado 2017.1 
 ## Standard   : VHDL'93/02
 ######################################################################################################################
@@ -16,7 +16,7 @@
 ######################################################################################################################
 ## Revisions  :
 ## Date        Version  Author  Description
-## 2018-08-28  1.0      msilvaol	Created
+## 2018-11-07  1.0      msilvaol	Created
 ######################################################################################################################
 
 
@@ -759,8 +759,6 @@ set_property PACKAGE_PIN AR17 [get_ports Z2C_AXI_D[20]]                       # 
 set_property PACKAGE_PIN AM16 [get_ports Z2C_AXI_D[21]]                       # pin name: IO_T3U_N12_84                           
 set_property PACKAGE_PIN J19  [get_ports ZYQ_CLK_N[1]]                        # pin name: IO_L13N_T2L_N1_GC_QBC_72                
 set_property PACKAGE_PIN J20  [get_ports ZYQ_CLK_P[1]]                        # pin name: IO_L13P_T2L_N0_GC_QBC_72                
-set_property PACKAGE_PIN J37  [get_ports ZYQ_MGTCLK_N[1]]                     # pin name: MGTREFCLK0N_133                         
-set_property PACKAGE_PIN J36  [get_ports ZYQ_MGTCLK_P[1]]                     # pin name: MGTREFCLK0P_133                         
 set_property PACKAGE_PIN AU13 [get_ports ZYQ_MPC[0]]                          # pin name: IO_L13N_T2L_N1_GC_QBC_84                
 set_property PACKAGE_PIN AW12 [get_ports ZYQ_MPC[1]]                          # pin name: IO_L12N_T1U_N11_GC_94                   
 set_property PACKAGE_PIN AY13 [get_ports ZYQ_MPC[2]]                          # pin name: IO_T1U_N12_94                           
@@ -1661,6 +1659,8 @@ set_property PACKAGE_PIN BD20 [get_ports ZYQ_MPC[7]]                          # 
 # set_property PACKAGE_PIN AM12 [get_ports NC]                                  # pin name: MGTREFCLK1N_220                         
 # set_property PACKAGE_PIN C37  [get_ports NC]                                  # pin name: MGTYTXN1_133                            
 # set_property PACKAGE_PIN C36  [get_ports NC]                                  # pin name: MGTYTXP1_133                            
+# set_property PACKAGE_PIN J36  [get_ports NC]                                  # pin name: MGTREFCLK0P_133                         
+# set_property PACKAGE_PIN J37  [get_ports NC]                                  # pin name: MGTREFCLK0N_133                         
 # set_property PACKAGE_PIN J30  [get_ports NC]                                  # pin name: IO_T0U_N12_VRP_70                       
 # set_property PACKAGE_PIN A37  [get_ports NC]                                  # pin name: MGTYTXN3_133                            
 # set_property PACKAGE_PIN A36  [get_ports NC]                                  # pin name: MGTYTXP3_133                            

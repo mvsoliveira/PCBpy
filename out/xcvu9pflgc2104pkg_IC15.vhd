@@ -5,8 +5,8 @@
 -- File       : xcvu9pflgc2104pkg_IC15.vhd
 -- Author     : Marcos Oliveira
 -- Company    : CERN
--- Created    : 2018-08-28
--- Last update: 2018-08-28
+-- Created    : 2018-11-07
+-- Last update: 2018-11-07
 -- Platform   : Vivado 2016.3 and Mentor Modelsim SE-64 10.1c
 -- Standard   : VHDL'93/02
 ----------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@
 ----------------------------------------------------------------------------------------------------------------------
 -- Revisions  :
 -- Date        Version  Author  Description
--- 2018-08-28  1.0      msilvaol	Created
+-- 2018-11-07  1.0      msilvaol	Created
 ----------------------------------------------------------------------------------------------------------------------
 
 entity xcvu9pflgc2104pkg is
@@ -81,8 +81,6 @@ Z2C_AXI_CLK          : inout std_logic;
 Z2C_AXI_D            : inout std_logic_vector(21 downto 0);
 ZYQ_CLK_N            : inout std_logic_vector(1 downto 1);
 ZYQ_CLK_P            : inout std_logic_vector(1 downto 1);
-ZYQ_MGTCLK_N         : inout std_logic_vector(1 downto 1);
-ZYQ_MGTCLK_P         : inout std_logic_vector(1 downto 1);
 ZYQ_MPC              : inout std_logic_vector(7 downto 0)
 );
 end entity xcvu9pflgc2104pkg;

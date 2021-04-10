@@ -2,7 +2,7 @@ from PCBpy import *
 
 
 schem_data = {
-    'cad_filename': 'pstxref.dat',
+    'cad_filename': 'muctpi_pstxref.dat',
     'loop_a_net': ('XCVU160', 'XCKU095', 'CON38P'),
     'loop_b_pin': ('AFBR')
 }
@@ -51,7 +51,7 @@ for part in part_specific_data:
 
 # checking cross references
 
-rfname = 'in/cad/basenets.txt'
+rfname = 'in/cad/muctpi_basenets.txt'
 start_skip_conditions = ['%','Title:','Design:','Date:','Base','\n']
 
 with open(rfname) as rf:
@@ -71,5 +71,5 @@ conditions = [
 ]
 
 for c in conditions:
-    print "-----------------------------"
+    print("-----------------------------")
     check_file(content, c[0], c[1], start_skip_conditions)

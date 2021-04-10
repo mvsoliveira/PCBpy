@@ -1,1 +1,1 @@
-setuptools==40.0.0
+setuptools>=40.0.0

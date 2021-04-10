@@ -53,7 +53,7 @@ def PCBpy(part_specific_data, schem_data):
 
     # importing CSV
     import csv
-    with open('in/xlx/' + xlx_filename, 'rb') as f:
+    with open('in/xlx/' + xlx_filename, 'r') as f:
         reader = csv.reader(f)
         xlx_list = list(reader)
 
@@ -62,8 +62,8 @@ def PCBpy(part_specific_data, schem_data):
     xlx_pinout = {}
     for entry in xlx_list[3:-2]:
         xlx_pinout[entry[0]] = entry
-    print 'Processing part {0:s}...'.format(entity + '_' + cad_instance)
-    print 'Found {0:d} pins declared xilinx reference file'.format(len(xlx_pinout))
+    print('Processing part {0:s}...'.format(entity + '_' + cad_instance))
+    print('Found {0:d} pins declared xilinx reference file'.format(len(xlx_pinout)))
     # reanding cadence file
     with open('in/cad/' + cad_filename) as rf:
         cad_content = rf.readlines()
@@ -75,7 +75,7 @@ def PCBpy(part_specific_data, schem_data):
     rd = False
     while l < len(cad_content):
         if (cad_content[l].startswith(cad_part_num) and cad_content[l].endswith(cad_instance + '\n')):
-            print 'Reading instance ' + cad_content[l].rstrip()
+            print('Reading instance ' + cad_content[l].rstrip())
             rd = True
             inst = cad_content[l].split()[1]
             l += 1
@@ -91,7 +91,7 @@ def PCBpy(part_specific_data, schem_data):
 
         l += 1
 
-    print 'Found {0:d} pins in schematics'.format(len(cad_pinout))
+    print('Found {0:d} pins in schematics'.format(len(cad_pinout)))
 
     # checking consistence between pin names in XLX and CAD files
     xlx_cad_info_filename = entity + '_' + cad_instance + '_XLX_CAD_info.txt'
@@ -103,7 +103,7 @@ def PCBpy(part_specific_data, schem_data):
     f.write('{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n\n'.format('Pin', 'Xilinx pin name', 'Schematics pin name',
                                                                         'Schematics net name',
                                                                         'Schematics net name with index'))
-    for key, value in xlx_pinout.iteritems():
+    for key, value in xlx_pinout.items():
         xlx_pin_name = value[1]
         if key in cad_pinout:
             cad_pin_name = cad_pinout[key][2].split('<')[0]
@@ -271,12 +271,12 @@ def PCBpy(part_specific_data, schem_data):
                     if k in key:
                         b = '1' if pol_dict[key] == True else '0'
                         s += b
-            print 'Pol. vector for {0:s} {1:d}: {2:s} # {3:d} entries'.format(k, t, s, len(s))
+            print('Pol. vector for {0:s} {1:d}: {2:s} # {3:d} entries'.format(k, t, s, len(s)))
 
     ibertinfo_filename = entity + '_' + cad_instance + '_IBERT_info.txt'
     ibertinfocsv_filename = entity + '_' + cad_instance + '_IBERT_info.csv'
     f = open('out/' + ibertinfo_filename, 'w')  # ibert file
-    c = open('out/' + ibertinfocsv_filename, 'wb')  # ibert csvfile
+    c = open('out/' + ibertinfocsv_filename, 'w')  # ibert csvfile
     csvwriter = csv.writer(c);
     fmt = '{0:20s} | {1:3s} | {2:20s} | {3:6s} | {4:15s} | {5:6s} | {6:20s} | {7:12s} | {8:32s} | {9:6s} | {10:15s} | {11:6s} | {12:20s} | {13:3s}';
     col_names = 'IBERT instance name', 'Dir', 'A part', 'A inst', 'A pin name', 'A pin', 'A net', 'Coupling cap', 'B part', 'B inst', 'B pin name', 'B pin', 'B net', 'IO#';
@@ -502,7 +502,7 @@ def check_cond(func, par, nets, nets_v):
     # iterating though nets
     for n in nets:
         if func(par, n) != ri:
-            print 'Net failed to {2:s} condition {0:s}. Net: {1:s}'.format(par, nets_v, func.func_name)
+            print('Net failed to {2:s} condition {0:s}. Net: [{1:s}]'.format(par, ', '.join(nets_v), func.__name__))
             break
 
 
@@ -531,4 +531,4 @@ def print_nets(content):
         l, nets_v = get_cross_refs(l, content)
         # extracting vector information
         nets = extract_vector_info(nets_v)
-        print nets
+        print(nets)

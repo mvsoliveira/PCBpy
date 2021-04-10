@@ -14,6 +14,7 @@ Please check if net A2T_GT_P<9> should be connected to pin MGTHRXN2_229 (W3).
 Please check if net A2T_GT_P<4> should be connected to pin MGTHRXN3_230 (P1).
 Please check if net C2T_GT_P<11> should be connected to pin MGTYRXN3_127 (AF44).
 Please check if net C2T_GT_P<8> should be connected to pin MGTYRXN0_127 (AJ46).
+Please check if net C2T_GT_P<10> should be connected to pin MGTYRXN2_127 (AG46).
 Please check if net A2T_GT_P<3> should be connected to pin MGTHRXN0_231 (N3).
 Please check if net C2T_GT_P<7> should be connected to pin MGTYRXN3_126 (AK44).
 Please check if net ZYQ_TRP<5> should be connected to pin IO_L14N_T2L_N3_GC_A05_D21_65 (AV28).
@@ -28,7 +29,6 @@ Please check if net A2T_GT_P<12> should be connected to pin MGTHRXN3_228 (AB1).
 Please check if net A2T_GT_P<10> should be connected to pin MGTHRXN1_229 (Y1).
 Please check if net A2T_GT_P<0> should be connected to pin MGTHRXN3_231 (K1).
 Please check if net A2T_GT_P<11> should be connected to pin MGTHRXN0_229 (AA3).
-Please check if net C2T_GT_P<10> should be connected to pin MGTYRXN2_127 (AG46).
 Please check if net A2T_GT_P<7> should be connected to pin MGTHRXN0_230 (U3).
 Please check if net C2T_GT_P<13> should be connected to pin MGTYRXN1_128 (AD44).
 Please check if net C2T_GT_N<1> should be connected to pin MGTYRXP1_125 (AT43).

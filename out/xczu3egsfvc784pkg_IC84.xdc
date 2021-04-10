@@ -5,18 +5,18 @@
 ## File       : xczu3egsfvc784pkg_IC84.xdc
 ## Author     : Marcos Oliveira
 ## Company    : CERN
-## Created    : 2018-11-07
-## Last update: 2018-11-07
+## Created    : 2021-04-10
+## Last update: 2021-04-10
 ## Platform   : Vivado 2017.1 
 ## Standard   : VHDL'93/02
 ######################################################################################################################
 ## Description: Automatically generated with MyPinoutUtils
 ######################################################################################################################
-## Copyright (c) 2018 CERN
+## Copyright (c) 2021 CERN
 ######################################################################################################################
 ## Revisions  :
 ## Date        Version  Author  Description
-## 2018-11-07  1.0      msilvaol	Created
+## 2021-04-10  1.0      msilvaol	Created
 ######################################################################################################################
 
 
@@ -568,6 +568,7 @@ set_property PACKAGE_PIN AC16 [get_ports Z_I2C1_SDA]                          # 
 # set_property PACKAGE_PIN V3   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN V7   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN H15  [get_ports GND]                                 # pin name: GND                                     
+# set_property PACKAGE_PIN Y21  [get_ports GND]                                 # pin name: RSVDGND                                 
 # set_property PACKAGE_PIN AD18 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN U1   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN B2   [get_ports GND]                                 # pin name: GND                                     
@@ -579,7 +580,6 @@ set_property PACKAGE_PIN AC16 [get_ports Z_I2C1_SDA]                          # 
 # set_property PACKAGE_PIN R15  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN T5   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AC25 [get_ports GND]                                 # pin name: GND                                     
-# set_property PACKAGE_PIN Y21  [get_ports GND]                                 # pin name: RSVDGND                                 
 # set_property PACKAGE_PIN B17  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AD3  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN L24  [get_ports GND]                                 # pin name: GND                                     

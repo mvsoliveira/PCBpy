@@ -5,18 +5,18 @@
 ## File       : xcku095ffvb2104pkg_IC39.xdc
 ## Author     : Marcos Oliveira
 ## Company    : CERN
-## Created    : 2018-11-07
-## Last update: 2018-11-07
+## Created    : 2021-04-10
+## Last update: 2021-04-10
 ## Platform   : Vivado 2017.1 
 ## Standard   : VHDL'93/02
 ######################################################################################################################
 ## Description: Automatically generated with MyPinoutUtils
 ######################################################################################################################
-## Copyright (c) 2018 CERN
+## Copyright (c) 2021 CERN
 ######################################################################################################################
 ## Revisions  :
 ## Date        Version  Author  Description
-## 2018-11-07  1.0      msilvaol	Created
+## 2021-04-10  1.0      msilvaol	Created
 ######################################################################################################################
 
 
@@ -908,7 +908,6 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN F39  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AD14 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AD16 [get_ports GND]                                 # pin name: GND                                     
-# set_property PACKAGE_PIN W25  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AV8  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN M37  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AV5  [get_ports GND]                                 # pin name: GND                                     
@@ -1016,6 +1015,7 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN Y46  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN J44  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN Y45  [get_ports GND]                                 # pin name: GND                                     
+# set_property PACKAGE_PIN Y42  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN J43  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN Y41  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AJ1  [get_ports GND]                                 # pin name: GND                                     
@@ -1073,9 +1073,9 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AJ42 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AJ44 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AT26 [get_ports GND]                                 # pin name: GND                                     
-# set_property PACKAGE_PIN Y42  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AU10 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AU12 [get_ports GND]                                 # pin name: GND                                     
+# set_property PACKAGE_PIN AH14 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AV30 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AV35 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AV36 [get_ports GND]                                 # pin name: GND                                     
@@ -1093,7 +1093,6 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AW1  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AG44 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN N1   [get_ports GND]                                 # pin name: GND                                     
-# set_property PACKAGE_PIN N2   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN N6   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AG43 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AK46 [get_ports GND]                                 # pin name: GND                                     
@@ -1113,6 +1112,7 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AM42 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AR2  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN W27  [get_ports GND]                                 # pin name: GND                                     
+# set_property PACKAGE_PIN W25  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN W23  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN W21  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AY24 [get_ports GND]                                 # pin name: GND                                     
@@ -1354,6 +1354,7 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AA2  [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN BE41 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN BE45 [get_ports GND]                                 # pin name: GND                                     
+# set_property PACKAGE_PIN N2   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN N5   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AG42 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN AW27 [get_ports GND]                                 # pin name: GND                                     
@@ -1406,7 +1407,6 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN B2   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN B8   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN U5   [get_ports GND]                                 # pin name: GND                                     
-# set_property PACKAGE_PIN AH14 [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN U6   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN U1   [get_ports GND]                                 # pin name: GND                                     
 # set_property PACKAGE_PIN U2   [get_ports GND]                                 # pin name: GND                                     
@@ -1450,6 +1450,7 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN U11  [get_ports MGTVCCAUX]                           # pin name: MGTVCCAUX_RN                            
 # set_property PACKAGE_PIN Y36  [get_ports MGTVCCAUX]                           # pin name: MGTVCCAUX_LN                            
 # set_property PACKAGE_PIN R11  [get_ports MGTVCCAUX]                           # pin name: MGTVCCAUX_RN                            
+# set_property PACKAGE_PIN J41  [get_ports NC]                                  # pin name: MGTYTXN3_131                            
 # set_property PACKAGE_PIN Y11  [get_ports NC]                                  # pin name: MGTREFCLK0P_229                         
 # set_property PACKAGE_PIN Y10  [get_ports NC]                                  # pin name: MGTREFCLK0N_229                         
 # set_property PACKAGE_PIN B25  [get_ports NC]                                  # pin name: IO_L24P_T3U_N10_71                      
@@ -1559,7 +1560,6 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AT6  [get_ports NC]                                  # pin name: MGTHTXN1_225                            
 # set_property PACKAGE_PIN AT7  [get_ports NC]                                  # pin name: MGTHTXP1_225                            
 # set_property PACKAGE_PIN M15  [get_ports NC]                                  # pin name: IO_T0U_N12_VRP_69                       
-# set_property PACKAGE_PIN J41  [get_ports NC]                                  # pin name: MGTYTXN3_131                            
 # set_property PACKAGE_PIN BC33 [get_ports NC]                                  # pin name: IO_T1U_N12_44                           
 # set_property PACKAGE_PIN AJ8  [get_ports NC]                                  # pin name: MGTHTXN0_227                            
 # set_property PACKAGE_PIN AJ9  [get_ports NC]                                  # pin name: MGTHTXP0_227                            
@@ -1602,7 +1602,6 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AH7  [get_ports NC]                                  # pin name: MGTHTXP1_227                            
 # set_property PACKAGE_PIN AV22 [get_ports NC]                                  # pin name: IO_L15N_T2L_N5_AD11N_84                 
 # set_property PACKAGE_PIN AP11 [get_ports NC]                                  # pin name: MGTREFCLK1P_225                         
-# set_property PACKAGE_PIN AY23 [get_ports NC]                                  # pin name: IO_L12P_T1U_N10_GC_94                   
 # set_property PACKAGE_PIN AL21 [get_ports NC]                                  # pin name: IO_L24P_T3U_N10_84                      
 # set_property PACKAGE_PIN BD21 [get_ports NC]                                  # pin name: IO_L5P_T0U_N8_AD14P_94                  
 # set_property PACKAGE_PIN AL23 [get_ports NC]                                  # pin name: VREF_84                                 
@@ -1634,6 +1633,7 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN BB21 [get_ports NC]                                  # pin name: IO_L8P_T1L_N2_AD5P_94                   
 # set_property PACKAGE_PIN AU40 [get_ports NC]                                  # pin name: MGTYTXP0_125                            
 # set_property PACKAGE_PIN AU41 [get_ports NC]                                  # pin name: MGTYTXN0_125                            
+# set_property PACKAGE_PIN AY23 [get_ports NC]                                  # pin name: IO_L12P_T1U_N10_GC_94                   
 # set_property PACKAGE_PIN BE36 [get_ports NC]                                  # pin name: IO_L9N_T1L_N5_AD12N_45                  
 # set_property PACKAGE_PIN BE37 [get_ports NC]                                  # pin name: IO_L3P_T0L_N4_AD15P_45                  
 # set_property PACKAGE_PIN BE35 [get_ports NC]                                  # pin name: IO_L8N_T1L_N3_AD5N_45                   
@@ -1928,7 +1928,6 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN J7   [get_ports P1V2B]                               # pin name: MGTAVTT_RN                              
 # set_property PACKAGE_PIN AN7  [get_ports P1V2B]                               # pin name: MGTAVTT_RS                              
 # set_property PACKAGE_PIN AB41 [get_ports P1V2B]                               # pin name: MGTAVTT_LN                              
-# set_property PACKAGE_PIN U7   [get_ports P1V2B]                               # pin name: MGTAVTT_RN                              
 # set_property PACKAGE_PIN AC6  [get_ports P1V2B]                               # pin name: MGTAVTT_RS                              
 # set_property PACKAGE_PIN T8   [get_ports P1V2B]                               # pin name: MGTAVTT_RN                              
 # set_property PACKAGE_PIN C45  [get_ports P1V2B]                               # pin name: MGTAVTT_LN                              
@@ -1946,6 +1945,7 @@ set_property PACKAGE_PIN AW40 [get_ports Z_TX_C_P]                            # 
 # set_property PACKAGE_PIN AK41 [get_ports P1V2B]                               # pin name: MGTAVTT_LS                              
 # set_property PACKAGE_PIN P41  [get_ports P1V2B]                               # pin name: MGTAVTT_LN                              
 # set_property PACKAGE_PIN B3   [get_ports P1V2B]                               # pin name: MGTAVTT_RN                              
+# set_property PACKAGE_PIN U7   [get_ports P1V2B]                               # pin name: MGTAVTT_RN                              
 # set_property PACKAGE_PIN BD2  [get_ports P1V2B]                               # pin name: MGTAVTT_RS                              
 # set_property PACKAGE_PIN AD40 [get_ports P1V2B]                               # pin name: MGTAVTT_LN                              
 # set_property PACKAGE_PIN B23  [get_ports P1V8]                                # pin name: VCCO_71                                 

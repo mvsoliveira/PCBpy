@@ -30,7 +30,6 @@ Pin E10 name differs in XLX and CAD pinout files XLX=MGTYTXN1_232, CAD=MGTHTXN1_
 Pin E15 name differs in XLX and CAD pinout files XLX=MGTYRXN3_231, CAD=MGTHRXN3_231.
 Pin E16 name differs in XLX and CAD pinout files XLX=MGTYRXP3_231, CAD=MGTHRXP3_231.
 Pin AW6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_222, CAD=MGTHTXN0_222.
-Pin AY13 name differs in XLX and CAD pinout files XLX=IO_T1U_N12_64, CAD=IO_T1U_N12_94.
 Pin AY12 name differs in XLX and CAD pinout files XLX=IO_L9P_T1L_N4_AD12P_64, CAD=IO_L9P_T1L_N4_AD12P_94.
 Pin AY15 name differs in XLX and CAD pinout files XLX=IO_L1P_T0L_N0_DBC_64, CAD=IO_L1P_T0L_N0_DBC_94.
 Pin AY14 name differs in XLX and CAD pinout files XLX=IO_L2N_T0L_N3_64, CAD=IO_L2N_T0L_N3_94.
@@ -212,6 +211,7 @@ Pin AB3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_227, CAD=MGTHRXN1_
 Pin AB4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_227, CAD=MGTHRXP1_227.
 Pin AB8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_227, CAD=MGTHTXN1_227.
 Pin AB9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_227, CAD=MGTHTXP1_227.
+Pin AY13 name differs in XLX and CAD pinout files XLX=IO_T1U_N12_64, CAD=IO_T1U_N12_94.
 Pin AW2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_222, CAD=MGTHRXP0_222.
 Pin AY16 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_94.
 Pin Y9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_227, CAD=MGTHTXP3_227.

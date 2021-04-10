@@ -5,18 +5,18 @@
 -- File       : xcvu9pflgc2104pkg_IC15.vhd
 -- Author     : Marcos Oliveira
 -- Company    : CERN
--- Created    : 2018-11-07
--- Last update: 2018-11-07
+-- Created    : 2021-04-10
+-- Last update: 2021-04-10
 -- Platform   : Vivado 2016.3 and Mentor Modelsim SE-64 10.1c
 -- Standard   : VHDL'93/02
 ----------------------------------------------------------------------------------------------------------------------
 -- Description: Automatically generated with MyPinoutUtils
 ----------------------------------------------------------------------------------------------------------------------
--- Copyright (c) 2018 CERN
+-- Copyright (c) 2021 CERN
 ----------------------------------------------------------------------------------------------------------------------
 -- Revisions  :
 -- Date        Version  Author  Description
--- 2018-11-07  1.0      msilvaol	Created
+-- 2021-04-10  1.0      msilvaol	Created
 ----------------------------------------------------------------------------------------------------------------------
 
 entity xcvu9pflgc2104pkg is

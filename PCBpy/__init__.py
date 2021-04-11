@@ -30,6 +30,7 @@ def natural_keys(text):
 #### human sorting ####
 #### current date ####
 import datetime
+import pandas as pd
 
 now = datetime.datetime.now()
 datestr = now.strftime("%Y-%m-%d")
@@ -37,6 +38,11 @@ yearstr = now.strftime("%Y")
 
 
 #### current date ####
+
+def XilinxPinoutCSVParser(filename):
+    pin_df = pd.read_csv(filename,skiprows=2, skipfooter=2, engine='python')
+    return pin_df
+
 
 def PCBpy(part_specific_data, schem_data):
     cad_filename = schem_data['cad_filename']
@@ -51,19 +57,14 @@ def PCBpy(part_specific_data, schem_data):
     gt_types = part_specific_data['gt_types']
     ibert_path = part_specific_data['ibert_path']
 
-    # importing CSV
-    import csv
-    with open('in/xlx/' + xlx_filename, 'r') as f:
-        reader = csv.reader(f)
-        xlx_list = list(reader)
+    # Reading pinout file
+    pin_df = XilinxPinoutCSVParser(f'in/xlx/{xlx_filename}')
 
     # creating XLX pinout dictionary
     entity = xlx_filename.split('.')[0]
-    xlx_pinout = {}
-    for entry in xlx_list[3:-2]:
-        xlx_pinout[entry[0]] = entry
+
     print('Processing part {0:s}...'.format(entity + '_' + cad_instance))
-    print('Found {0:d} pins declared xilinx reference file'.format(len(xlx_pinout)))
+    print(f'Found {len(pin_df)} pins declared in the pinout reference file')
     # reanding cadence file
     with open('in/cad/' + cad_filename) as rf:
         cad_content = rf.readlines()
@@ -103,30 +104,29 @@ def PCBpy(part_specific_data, schem_data):
     f.write('{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n\n'.format('Pin', 'Xilinx pin name', 'Schematics pin name',
                                                                         'Schematics net name',
                                                                         'Schematics net name with index'))
-    for key, value in xlx_pinout.items():
-        xlx_pin_name = value[1]
-        if key in cad_pinout:
-            cad_pin_name = cad_pinout[key][2].split('<')[0]
-            cad_net_name = cad_pinout[key][1].split('<')[0]
-            cad_net_name_v = cad_pinout[key][1]
+    for index,pin_row in pin_df.iterrows():
+        if pin_row['Pin'] in cad_pinout:
+            cad_pin_name = cad_pinout[pin_row['Pin']][2].split('<')[0]
+            cad_net_name = cad_pinout[pin_row['Pin']][1].split('<')[0]
+            cad_net_name_v = cad_pinout[pin_row['Pin']][1]
 
-            if xlx_pin_name != cad_pin_name:
-                c.write('Pin {0:s} name differs in XLX and CAD pinout files XLX={1:s}, CAD={2:s}.\n'.format(key,
-                                                                                                            xlx_pin_name,
+            if pin_row['Pin Name'] != cad_pin_name:
+                c.write('Pin {0:s} name differs in XLX and CAD pinout files XLX={1:s}, CAD={2:s}.\n'.format(pin_row['Pin'],
+                                                                                                            pin_row['Pin Name'],
                                                                                                             cad_pin_name))
 
-            string = '{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n'.format(key, xlx_pin_name, cad_pin_name,
+            string = '{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n'.format(pin_row['Pin'], pin_row['Pin Name'], cad_pin_name,
                                                                                cad_net_name, cad_net_name_v)
 
-            p_list.append([key, cad_net_name_v, cad_net_name, cad_pin_name])
+            p_list.append([pin_row['Pin'], cad_net_name_v, cad_net_name, cad_pin_name])
 
             f.write(string)
 
 
         else:
-            if xlx_pin_name != 'NC':
-                c.write('Pin {0:s} ({1:s}) does not exist in cadence pinout file and should exist.\n'.format(key,
-                                                                                                             xlx_pin_name))
+            if pin_row['Pin Name'] != 'NC':
+                c.write('Pin {0:s} ({1:s}) does not exist in cadence pinout file and should exist.\n'.format(pin_row['Pin'],
+                                                                                                             pin_row['Pin Name']))
 
     f.close()
 
@@ -249,11 +249,11 @@ def PCBpy(part_specific_data, schem_data):
                 cmd = cmd_fmt.format(txrx, path, entry[3], entry[1]);
                 f.write(cmd)
             ## generating polarity vector
-            key = '{0:s}_{1:d}_{2:d}'.format(txrx, quad, qch)
-            if key not in pol_dict:
-                pol_dict[key] = entry[4]
+            pin_row['Pin'] = '{0:s}_{1:d}_{2:d}'.format(txrx, quad, qch)
+            if pin_row['Pin'] not in pol_dict:
+                pol_dict[pin_row['Pin']] = entry[4]
             else:
-                pol_dict[key] = pol_dict[key] or entry[4]
+                pol_dict[pin_row['Pin']] = pol_dict[pin_row['Pin']] or entry[4]
                 # generating transceiver list
             if 'N' not in entry[3]:  # getting only positive pins
                 ibertname = 'Quad_{0:d}/MGT_X*Y{1:d}'.format(quad, ich)
@@ -265,11 +265,11 @@ def PCBpy(part_specific_data, schem_data):
     for k in dir_kinds:
         for t in gtquad_initial:
             s = ''
-            for key in reversed(sorted(pol_dict)):
-                q = int(key.split('_')[1])
+            for pin_row['Pin'] in reversed(sorted(pol_dict)):
+                q = int(pin_row['Pin'].split('_')[1])
                 if int(q / 100) == t:
-                    if k in key:
-                        b = '1' if pol_dict[key] == True else '0'
+                    if k in pin_row['Pin']:
+                        b = '1' if pol_dict[pin_row['Pin']] == True else '0'
                         s += b
             print('Pol. vector for {0:s} {1:d}: {2:s} # {3:d} entries'.format(k, t, s, len(s)))
 

@@ -535,6 +535,7 @@ def check_cond(func, par, nets, nets_v):
 
 def check_file(content, func, par, start_skip_conditions):
     l = 0
+    c = 0
     while l < len(content):
         # skipping line without cross reference information
         if skip_line(l, content, start_skip_conditions):
@@ -546,6 +547,8 @@ def check_file(content, func, par, start_skip_conditions):
         nets = extract_vector_info(nets_v)
         # checking conditions
         check_cond(func, par, nets, nets_v)
+        c += 1
+    print(f'Checked {c:d} groups of cross-reference nets for condition {func.__name__} with parameter {par}.')
 
 
 def print_nets(content):

@@ -41,33 +41,6 @@ part_specific_data = [
         'gtquad_initial': [1, 2],
         'ibert_path': 'localhost:3121/xilinx_tcf/*/0_1_0_*'
     },
-    # {
-    #     'pin_filename': 'xcvu9pflgc2104pkg.csv',
-    #     'cad_part_num': 'XCVU160-H1FLGC2104',
-    #     'cad_instance': 'IC15',
-    #     'gt_types': ('MGTH', 'MGTY'),
-    #     'first_gtquad': 19,
-    #     'gtquad_initial': [1, 2],
-    #     'ibert_path':'localhost:3121/xilinx_tcf/*/1_1_0_*'
-    # },
-    # {
-    #     'pin_filename': 'xcku095ffvb2104pkg.csv',
-    #     'cad_part_num': 'XCKU095-1FFVB2104C',
-    #     'cad_instance': 'IC39',
-    #     'gt_types': ('MGTH', 'MGTY'),
-    #     'first_gtquad': 24,
-    #     'gtquad_initial': [1, 2],
-    #     'ibert_path':'localhost:3121/xilinx_tcf/*/2_1_0_*'
-    # },
-    # {
-    #     'pin_filename': 'xczu3egsfvc784pkg.csv',
-    #     'cad_part_num': 'XCZU3EG-1SFVC784E',
-    #     'cad_instance': 'IC84',
-    #     'gt_types': ('PS_MGTRRX', 'PS_MGTRTX'),
-    #     'first_gtquad': 5,
-    #     'gtquad_initial': [5],
-    #     'ibert_path':'localhost:3121/xilinx_tcf/*/3_1_0_*'
-    # }
 ]
 
 for part in part_specific_data:

@@ -43,13 +43,18 @@ def XilinxPinoutCSVParser(filename):
     pin_df = pd.read_csv(filename,skiprows=2, skipfooter=2, engine='python')
     return pin_df
 
+def IntelPinoutXLSXParser(filename,sheet_name,package, skiprows=1, skipfooter=0, engine='openpyxl'):
+    pin_df = pd.read_excel(filename, engine=engine, sheet_name=sheet_name, skiprows=skiprows, skipfooter=skipfooter)
+    pin_df = pin_df.rename(columns={"Pin Name/Function": "Pin Name", package: "Pin"})
+    return pin_df
+
 
 def PCBpy(part_specific_data, schem_data):
     cad_filename = schem_data['cad_filename']
     loop_a_net = schem_data['loop_a_net']
     loop_b_pin = schem_data['loop_b_pin']
 
-    xlx_filename = part_specific_data['xlx_filename']
+    pin_filename = part_specific_data['pin_filename']
     cad_part_num = part_specific_data['cad_part_num']
     cad_instance = part_specific_data['cad_instance']
     first_gtquad = part_specific_data['first_gtquad']
@@ -58,12 +63,20 @@ def PCBpy(part_specific_data, schem_data):
     ibert_path = part_specific_data['ibert_path']
 
     # Reading pinout file
-    pin_df = XilinxPinoutCSVParser(f'in/xlx/{xlx_filename}')
+    if part_specific_data['manufacturer'] == 'xilinx':
+        entity = pin_filename.split('.')[0]
+        print(f'Processing Xilinx part {entity}_{cad_instance}...')
+        pin_df = XilinxPinoutCSVParser(f'in/xlx/{pin_filename}')
+    elif part_specific_data['manufacturer'] == 'intel':
+        entity = '{device:s}{package:s}'.format(device=pin_filename.split('.')[0],package=part_specific_data['package'])
+        print(f'Processing Intel part {entity}_{cad_instance}...')
+        if 'xlsx' in pin_filename:
+            pin_df = IntelPinoutXLSXParser(f'in/xlx/{pin_filename}',sheet_name='Pin List {package:s}'.format(package=part_specific_data['package']), package=part_specific_data['package'], skiprows=1, skipfooter=0, engine='openpyxl')
+        elif 'xls' in pin_filename:
+            pin_df = IntelPinoutXLSXParser(f'in/xlx/{pin_filename}', sheet_name='Pin List {package:s}'.format(package=part_specific_data['package']), package=part_specific_data['package'], skiprows=5, skipfooter=3, engine='xlrd')
 
-    # creating XLX pinout dictionary
-    entity = xlx_filename.split('.')[0]
 
-    print('Processing part {0:s}...'.format(entity + '_' + cad_instance))
+
     print(f'Found {len(pin_df)} pins declared in the pinout reference file')
     # reanding cadence file
     with open('in/cad/' + cad_filename) as rf:
@@ -101,7 +114,7 @@ def PCBpy(part_specific_data, schem_data):
     c = open('out/' + xlx_cad_check_filename, 'w')  # information file
     # p_list = [PIN,NET_NAME_V,NET_NAME,PKG_PIN_NAME,INV_POL?]
     p_list = []
-    f.write('{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n\n'.format('Pin', 'Xilinx pin name', 'Schematics pin name',
+    f.write('{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n\n'.format('Pin', 'Pinout file pin name', 'Schematics pin name',
                                                                         'Schematics net name',
                                                                         'Schematics net name with index'))
     for index,pin_row in pin_df.iterrows():
@@ -110,10 +123,10 @@ def PCBpy(part_specific_data, schem_data):
             cad_net_name = cad_pinout[pin_row['Pin']][1].split('<')[0]
             cad_net_name_v = cad_pinout[pin_row['Pin']][1]
 
-            if pin_row['Pin Name'] != cad_pin_name:
-                c.write('Pin {0:s} name differs in XLX and CAD pinout files XLX={1:s}, CAD={2:s}.\n'.format(pin_row['Pin'],
-                                                                                                            pin_row['Pin Name'],
-                                                                                                            cad_pin_name))
+            if pin_row['Pin Name'].casefold() != cad_pin_name.casefold():
+                c.write('Pin {0:s} name differs in MANUFACTURER and CAD pinout files MAN={1:s}, CAD={2:s}.\n'.format(pin_row['Pin'],
+                                                                                                            pin_row['Pin Name'].casefold(),
+                                                                                                            cad_pin_name.casefold()))
 
             string = '{0:4s} | {1:36s} | {2:36s} | {3:36s} | {4:36s}\n'.format(pin_row['Pin'], pin_row['Pin Name'], cad_pin_name,
                                                                                cad_net_name, cad_net_name_v)
@@ -140,16 +153,23 @@ def PCBpy(part_specific_data, schem_data):
     for s in swaps:
         for line in xlx_cad_info_content[2:]:
             entry = (''.join(line.split())).split('|')
+            pin_name = pin_df[pin_df['Pin'] == entry[0]]['Pin Name'].values[0]
             if entry[3].endswith('_' + s):
                 if s not in entry[2]:
-                    c.write('Please check if net {0:s} should be connected to pin {1:s} ({2:s}).\n'.format(entry[4],
-                                                                                                           entry[2],
-                                                                                                           entry[0]))
+                    c.write(
+                        'Please check if net {0:s} should be connected to pin CAD_PIN:{1:s} MAN_PIN:{3:s} ({2:s}).\n'.format(
+                            entry[4],
+                            entry[2],
+                            entry[0],
+                            pin_name))
             elif entry[3].endswith(s):
                 if (s + '_') not in entry[2]:
-                    c.write('Please check if net {0:s} should be connected to pin {1:s} ({2:s}).\n'.format(entry[4],
-                                                                                                           entry[2],
-                                                                                                           entry[0]))
+                    c.write(
+                        'Please check if net {0:s} should be connected to pin CAD_PIN:{1:s} MAN_PIN:{3:s} ({2:s}).\n'.format(
+                            entry[4],
+                            entry[2],
+                            entry[0],
+                            pin_name))
     c.close()
 
     ##
@@ -171,7 +191,10 @@ def PCBpy(part_specific_data, schem_data):
 
         # XDC
     # generating xdc pinout files
-
+    if part_specific_data['manufacturer'] == 'xilinx':
+        placing_fmt = 'set_property PACKAGE_PIN {0:4s} [get_ports {1:36s}] # pin name: {2:40s}{3:s}\n'
+    elif part_specific_data['manufacturer'] == 'intel':
+        placing_fmt = 'set_location_assignment PIN_{0:4s} -to {1:36s} # pin name: {2:40s}{3:s}\n'
     # ports='entity {0:s} is\nport (\n'.format(entity+'_'+cad_instance)
     placings = ''
     discarded = '\n' + 120 * '#' + '\n### {:^112} ###\n'.format('Non-constrained pins') + 120 * '#' + '\n\n';
@@ -180,24 +203,24 @@ def PCBpy(part_specific_data, schem_data):
     for entry in p_list:
         cad_net_index = entry[1].split('<')[1].split('>')[0] if len(entry[1].split('<')) > 1 else False
         if cad_net_index:  # Is a vector?
-            placing = 'set_property PACKAGE_PIN {0:4s} [get_ports {1:36s} # pin name: {2:40s}{3:s}\n'.format(entry[0],
-                                                                                                             '{0:s}[{1:s}]]'.format(
-                                                                                                                 entry[
-                                                                                                                     2],
-                                                                                                                 cad_net_index),
-                                                                                                             entry[3],
-                                                                                                             addinf[
-                                                                                                                 entry[
-                                                                                                                     4]])
+            placing = placing_fmt.format(entry[0],
+                                         '{0:s}[{1:s}]'.format(
+                                             entry[
+                                                 2],
+                                             cad_net_index),
+                                         entry[3],
+                                         addinf[
+                                             entry[
+                                                 4]])
         else:
-            placing = 'set_property PACKAGE_PIN {0:4s} [get_ports {1:36s} # pin name: {2:40s}{3:s}\n'.format(entry[0],
-                                                                                                             '{0:s}]'.format(
-                                                                                                                 entry[
-                                                                                                                     2]),
-                                                                                                             entry[3],
-                                                                                                             addinf[
-                                                                                                                 entry[
-                                                                                                                     4]])
+            placing = placing_fmt.format(entry[0],
+                                         '{0:s}'.format(
+                                             entry[
+                                                 2]),
+                                         entry[3],
+                                         addinf[
+                                             entry[
+                                                 4]])
         if entry[3].startswith(("GND", "VCC", "MGTVCC", "MGTAVTT", "POR_", "PUDC", "VREF")) or entry[2].startswith(
                 ("NC", "UNN", "VRP", "P1V", "GND")):
             discarded += '# ' + placing
@@ -206,7 +229,7 @@ def PCBpy(part_specific_data, schem_data):
             placings += placing
 
     nPins = len(p_list)
-    genXDCFile(entity, cad_instance, placings, discarded, nPins)
+    genPlacingFile(entity, cad_instance, placings, discarded, nPins, part_specific_data['manufacturer'])
 
     # VHDL
     # getting vector list
@@ -412,10 +435,14 @@ def genVHDLFile(entity, cad_instance, ports):
     v.close()
 
 
-def genXDCFile(entity, cad_instance, placings, discarded, nPins):
-    xlx_cad_xdc_filename = entity + '_' + cad_instance + '.xdc'
+def genPlacingFile(entity, cad_instance, placings, discarded, nPins, manufacturer):
+    if manufacturer == 'xilinx':
+        extension = '.xdc'
+    if manufacturer == 'intel':
+        extension = '.tcl'
+    xlx_cad_xdc_filename = entity + '_' + cad_instance + extension
 
-    with open('in/usr/template.xdc') as rf:
+    with open(f'in/usr/template{extension}') as rf:
         template_xdc = rf.readlines()
     ## replacing entity name
     template_xdc = replaceFields(template_xdc, entity, xlx_cad_xdc_filename)

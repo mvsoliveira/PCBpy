@@ -1,4 +1,4 @@
-Pin  | Xilinx pin name                      | Schematics pin name                  | Schematics net name                  | Schematics net name with index      
+Pin  | Pinout file pin name                 | Schematics pin name                  | Schematics net name                  | Schematics net name with index      
 
 U12  | DXN                                  | DXN                                  | ZYQ_DXN                              | ZYQ_DXN                             
 P12  | VCCADC                               | VCCADC                               | VCC_ADCS                             | VCC_ADCS                            

@@ -7,8 +7,8 @@
 ## Company    : CERN
 ## Created    : <date>
 ## Last update: <date>
-## Platform   : Xilinx Vivado
-## Standard   : XDC
+## Platform   : Intel Quartus Prime v21.1
+## Standard   : SDC
 ######################################################################################################################
 ## Description: Automatically generated with PCBpy
 ######################################################################################################################

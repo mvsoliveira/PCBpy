@@ -1,399 +1,399 @@
-Pin M14 name differs in XLX and CAD pinout files XLX=RSVDGND, CAD=CFGBVS_0.
-Pin BF16 name differs in XLX and CAD pinout files XLX=IO_L23N_T3U_N9_PERSTN1_I2C_SDA_65, CAD=IO_L23N_T3U_N9_I2C_SDA_65.
-Pin AV19 name differs in XLX and CAD pinout files XLX=IO_T1U_N12_SMBALERT_65, CAD=IO_T1U_N12_PERSTN1_65.
-Pin AR17 name differs in XLX and CAD pinout files XLX=IO_L24N_T3U_N11_64, CAD=IO_L24N_T3U_N11_84.
-Pin AP17 name differs in XLX and CAD pinout files XLX=IO_L24P_T3U_N10_64, CAD=IO_L24P_T3U_N10_84.
-Pin AP15 name differs in XLX and CAD pinout files XLX=IO_L23N_T3U_N9_64, CAD=IO_L23N_T3U_N9_84.
-Pin AN15 name differs in XLX and CAD pinout files XLX=IO_L23P_T3U_N8_64, CAD=IO_L23P_T3U_N8_84.
-Pin AV15 name differs in XLX and CAD pinout files XLX=IO_L22N_T3U_N7_DBC_AD0N_64, CAD=IO_L22N_T3U_N7_DBC_AD0N_84.
-Pin AV16 name differs in XLX and CAD pinout files XLX=IO_L22P_T3U_N6_DBC_AD0P_64, CAD=IO_L22P_T3U_N6_DBC_AD0P_84.
-Pin AP16 name differs in XLX and CAD pinout files XLX=IO_L21N_T3L_N5_AD8N_64, CAD=IO_L21N_T3L_N5_AD8N_84.
-Pin AN16 name differs in XLX and CAD pinout files XLX=IO_L21P_T3L_N4_AD8P_64, CAD=IO_L21P_T3L_N4_AD8P_84.
-Pin AU17 name differs in XLX and CAD pinout files XLX=IO_L20N_T3L_N3_AD1N_64, CAD=IO_L20N_T3L_N3_AD1N_84.
-Pin AT17 name differs in XLX and CAD pinout files XLX=IO_L20P_T3L_N2_AD1P_64, CAD=IO_L20P_T3L_N2_AD1P_84.
-Pin AU16 name differs in XLX and CAD pinout files XLX=IO_L19N_T3L_N1_DBC_AD9N_64, CAD=IO_L19N_T3L_N1_DBC_AD9N_84.
-Pin AT16 name differs in XLX and CAD pinout files XLX=IO_L19P_T3L_N0_DBC_AD9P_64, CAD=IO_L19P_T3L_N0_DBC_AD9P_84.
-Pin AM16 name differs in XLX and CAD pinout files XLX=IO_T3U_N12_64, CAD=IO_T3U_N12_84.
-Pin AT11 name differs in XLX and CAD pinout files XLX=IO_T2U_N12_64, CAD=IO_T2U_N12_84.
-Pin AR13 name differs in XLX and CAD pinout files XLX=IO_L18N_T2U_N11_AD2N_64, CAD=IO_L18N_T2U_N11_AD2N_84.
-Pin AP13 name differs in XLX and CAD pinout files XLX=IO_L18P_T2U_N10_AD2P_64, CAD=IO_L18P_T2U_N10_AD2P_84.
-Pin AU11 name differs in XLX and CAD pinout files XLX=IO_L17N_T2U_N9_AD10N_64, CAD=IO_L17N_T2U_N9_AD10N_84.
-Pin AU12 name differs in XLX and CAD pinout files XLX=IO_L17P_T2U_N8_AD10P_64, CAD=IO_L17P_T2U_N8_AD10P_84.
-Pin AR14 name differs in XLX and CAD pinout files XLX=IO_L16N_T2U_N7_QBC_AD3N_64, CAD=IO_L16N_T2U_N7_QBC_AD3N_84.
-Pin AR15 name differs in XLX and CAD pinout files XLX=IO_L16P_T2U_N6_QBC_AD3P_64, CAD=IO_L16P_T2U_N6_QBC_AD3P_84.
-Pin AT12 name differs in XLX and CAD pinout files XLX=IO_L15N_T2L_N5_AD11N_64, CAD=IO_L15N_T2L_N5_AD11N_84.
-Pin AR12 name differs in XLX and CAD pinout files XLX=IO_L15P_T2L_N4_AD11P_64, CAD=IO_L15P_T2L_N4_AD11P_84.
-Pin AT14 name differs in XLX and CAD pinout files XLX=IO_L14N_T2L_N3_GC_64, CAD=IO_L14N_T2L_N3_GC_84.
-Pin AT15 name differs in XLX and CAD pinout files XLX=IO_L14P_T2L_N2_GC_64, CAD=IO_L14P_T2L_N2_GC_84.
-Pin AU13 name differs in XLX and CAD pinout files XLX=IO_L13N_T2L_N1_GC_QBC_64, CAD=IO_L13N_T2L_N1_GC_QBC_84.
-Pin AU14 name differs in XLX and CAD pinout files XLX=IO_L13P_T2L_N0_GC_QBC_64, CAD=IO_L13P_T2L_N0_GC_QBC_84.
-Pin AW12 name differs in XLX and CAD pinout files XLX=IO_L12N_T1U_N11_GC_64, CAD=IO_L12N_T1U_N11_GC_94.
-Pin AW13 name differs in XLX and CAD pinout files XLX=IO_L12P_T1U_N10_GC_64, CAD=IO_L12P_T1U_N10_GC_94.
-Pin AV13 name differs in XLX and CAD pinout files XLX=IO_L11N_T1U_N9_GC_64, CAD=IO_L11N_T1U_N9_GC_94.
-Pin AV14 name differs in XLX and CAD pinout files XLX=IO_L11P_T1U_N8_GC_64, CAD=IO_L11P_T1U_N8_GC_94.
-Pin BB11 name differs in XLX and CAD pinout files XLX=IO_L10N_T1U_N7_QBC_AD4N_64, CAD=IO_L10N_T1U_N7_QBC_AD4N_94.
-Pin BA11 name differs in XLX and CAD pinout files XLX=IO_L10P_T1U_N6_QBC_AD4P_64, CAD=IO_L10P_T1U_N6_QBC_AD4P_94.
-Pin BA12 name differs in XLX and CAD pinout files XLX=IO_L9N_T1L_N5_AD12N_64, CAD=IO_L9N_T1L_N5_AD12N_94.
-Pin AY12 name differs in XLX and CAD pinout files XLX=IO_L9P_T1L_N4_AD12P_64, CAD=IO_L9P_T1L_N4_AD12P_94.
-Pin BB12 name differs in XLX and CAD pinout files XLX=IO_L8N_T1L_N3_AD5N_64, CAD=IO_L8N_T1L_N3_AD5N_94.
-Pin BB13 name differs in XLX and CAD pinout files XLX=IO_L8P_T1L_N2_AD5P_64, CAD=IO_L8P_T1L_N2_AD5P_94.
-Pin AW11 name differs in XLX and CAD pinout files XLX=IO_L7N_T1L_N1_QBC_AD13N_64, CAD=IO_L7N_T1L_N1_QBC_AD13N_94.
-Pin AV11 name differs in XLX and CAD pinout files XLX=IO_L7P_T1L_N0_QBC_AD13P_64, CAD=IO_L7P_T1L_N0_QBC_AD13P_94.
-Pin AY13 name differs in XLX and CAD pinout files XLX=IO_T1U_N12_64, CAD=IO_T1U_N12_94.
-Pin BC16 name differs in XLX and CAD pinout files XLX=IO_T0U_N12_VRP_64, CAD=IO_T0U_N12_94.
-Pin BA17 name differs in XLX and CAD pinout files XLX=IO_L6N_T0U_N11_AD6N_64, CAD=IO_L6N_T0U_N11_AD6N_94.
-Pin AY17 name differs in XLX and CAD pinout files XLX=IO_L6P_T0U_N10_AD6P_64, CAD=IO_L6P_T0U_N10_AD6P_94.
-Pin BB14 name differs in XLX and CAD pinout files XLX=IO_L5N_T0U_N9_AD14N_64, CAD=IO_L5N_T0U_N9_AD14N_94.
-Pin BA14 name differs in XLX and CAD pinout files XLX=IO_L5P_T0U_N8_AD14P_64, CAD=IO_L5P_T0U_N8_AD14P_94.
-Pin BB16 name differs in XLX and CAD pinout files XLX=IO_L4N_T0U_N7_DBC_AD7N_64, CAD=IO_L4N_T0U_N7_DBC_AD7N_94.
-Pin BB17 name differs in XLX and CAD pinout files XLX=IO_L4P_T0U_N6_DBC_AD7P_64, CAD=IO_L4P_T0U_N6_DBC_AD7P_94.
-Pin BB15 name differs in XLX and CAD pinout files XLX=IO_L3N_T0L_N5_AD15N_64, CAD=IO_L3N_T0L_N5_AD15N_94.
-Pin BA16 name differs in XLX and CAD pinout files XLX=IO_L3P_T0L_N4_AD15P_64, CAD=IO_L3P_T0L_N4_AD15P_94.
-Pin AY14 name differs in XLX and CAD pinout files XLX=IO_L2N_T0L_N3_64, CAD=IO_L2N_T0L_N3_94.
-Pin AW15 name differs in XLX and CAD pinout files XLX=IO_L2P_T0L_N2_64, CAD=IO_L2P_T0L_N2_94.
-Pin BA15 name differs in XLX and CAD pinout files XLX=IO_L1N_T0L_N1_DBC_64, CAD=IO_L1N_T0L_N1_DBC_94.
-Pin AY15 name differs in XLX and CAD pinout files XLX=IO_L1P_T0L_N0_DBC_64, CAD=IO_L1P_T0L_N0_DBC_94.
-Pin AM17 name differs in XLX and CAD pinout files XLX=VREF_64, CAD=VREF_84.
-Pin BD9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_220, CAD=MGTHTXP3_220.
-Pin BD4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_220, CAD=MGTHRXP3_220.
-Pin BD3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_220, CAD=MGTHRXN3_220.
-Pin BD8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_220, CAD=MGTHTXN3_220.
-Pin BE7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_220, CAD=MGTHTXP2_220.
-Pin BF4 name differs in XLX and CAD pinout files XLX=MGTYRXP2_220, CAD=MGTHRXP2_220.
-Pin BF3 name differs in XLX and CAD pinout files XLX=MGTYRXN2_220, CAD=MGTHRXN2_220.
-Pin BE6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_220, CAD=MGTHTXN2_220.
-Pin BE11 name differs in XLX and CAD pinout files XLX=MGTYTXP1_220, CAD=MGTHTXP1_220.
-Pin BD14 name differs in XLX and CAD pinout files XLX=MGTYRXP1_220, CAD=MGTHRXP1_220.
-Pin BD13 name differs in XLX and CAD pinout files XLX=MGTYRXN1_220, CAD=MGTHRXN1_220.
-Pin BE10 name differs in XLX and CAD pinout files XLX=MGTYTXN1_220, CAD=MGTHTXN1_220.
-Pin BF9 name differs in XLX and CAD pinout files XLX=MGTYTXP0_220, CAD=MGTHTXP0_220.
-Pin BF14 name differs in XLX and CAD pinout files XLX=MGTYRXP0_220, CAD=MGTHRXP0_220.
-Pin BF13 name differs in XLX and CAD pinout files XLX=MGTYRXN0_220, CAD=MGTHRXN0_220.
-Pin BF8 name differs in XLX and CAD pinout files XLX=MGTYTXN0_220, CAD=MGTHTXN0_220.
-Pin AY9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_221, CAD=MGTHTXP3_221.
-Pin AY4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_221, CAD=MGTHRXP3_221.
-Pin AY3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_221, CAD=MGTHRXN3_221.
-Pin AY8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_221, CAD=MGTHTXN3_221.
-Pin BA7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_221, CAD=MGTHTXP2_221.
-Pin BA2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_221, CAD=MGTHRXP2_221.
-Pin BA1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_221, CAD=MGTHRXN2_221.
-Pin BA6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_221, CAD=MGTHTXN2_221.
-Pin BB9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_221, CAD=MGTHTXP1_221.
-Pin BB4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_221, CAD=MGTHRXP1_221.
-Pin BB3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_221, CAD=MGTHRXN1_221.
-Pin BB8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_221, CAD=MGTHTXN1_221.
-Pin BC7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_221, CAD=MGTHTXP0_221.
-Pin BC2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_221, CAD=MGTHRXP0_221.
-Pin BC1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_221, CAD=MGTHRXN0_221.
-Pin BC6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_221, CAD=MGTHTXN0_221.
-Pin AT9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_222, CAD=MGTHTXP3_222.
-Pin AT4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_222, CAD=MGTHRXP3_222.
-Pin AT3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_222, CAD=MGTHRXN3_222.
-Pin AT8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_222, CAD=MGTHTXN3_222.
-Pin AU7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_222, CAD=MGTHTXP2_222.
-Pin AU2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_222, CAD=MGTHRXP2_222.
-Pin AU1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_222, CAD=MGTHRXN2_222.
-Pin AU6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_222, CAD=MGTHTXN2_222.
-Pin AV9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_222, CAD=MGTHTXP1_222.
-Pin AV4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_222, CAD=MGTHRXP1_222.
-Pin AV3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_222, CAD=MGTHRXN1_222.
-Pin AV8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_222, CAD=MGTHTXN1_222.
-Pin AW7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_222, CAD=MGTHTXP0_222.
-Pin AW2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_222, CAD=MGTHRXP0_222.
-Pin AW1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_222, CAD=MGTHRXN0_222.
-Pin AW6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_222, CAD=MGTHTXN0_222.
-Pin AM9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_224, CAD=MGTHTXP3_224.
-Pin AM4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_224, CAD=MGTHRXP3_224.
-Pin AM3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_224, CAD=MGTHRXN3_224.
-Pin AM8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_224, CAD=MGTHTXN3_224.
-Pin AN7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_224, CAD=MGTHTXP2_224.
-Pin AN2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_224, CAD=MGTHRXP2_224.
-Pin AN1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_224, CAD=MGTHRXN2_224.
-Pin AN6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_224, CAD=MGTHTXN2_224.
-Pin AP9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_224, CAD=MGTHTXP1_224.
-Pin AP4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_224, CAD=MGTHRXP1_224.
-Pin AP3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_224, CAD=MGTHRXN1_224.
-Pin AP8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_224, CAD=MGTHTXN1_224.
-Pin AR7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_224, CAD=MGTHTXP0_224.
-Pin AR2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_224, CAD=MGTHRXP0_224.
-Pin AR1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_224, CAD=MGTHRXN0_224.
-Pin AR6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_224, CAD=MGTHTXN0_224.
-Pin AH9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_225, CAD=MGTHTXP3_225.
-Pin AH4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_225, CAD=MGTHRXP3_225.
-Pin AH3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_225, CAD=MGTHRXN3_225.
-Pin AH8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_225, CAD=MGTHTXN3_225.
-Pin AJ7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_225, CAD=MGTHTXP2_225.
-Pin AJ2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_225, CAD=MGTHRXP2_225.
-Pin AJ1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_225, CAD=MGTHRXN2_225.
-Pin AJ6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_225, CAD=MGTHTXN2_225.
-Pin AK9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_225, CAD=MGTHTXP1_225.
-Pin AK4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_225, CAD=MGTHRXP1_225.
-Pin AK3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_225, CAD=MGTHRXN1_225.
-Pin AK8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_225, CAD=MGTHTXN1_225.
-Pin AL7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_225, CAD=MGTHTXP0_225.
-Pin AL2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_225, CAD=MGTHRXP0_225.
-Pin AL1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_225, CAD=MGTHRXN0_225.
-Pin AL6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_225, CAD=MGTHTXN0_225.
-Pin AD9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_226, CAD=MGTHTXP3_226.
-Pin AD4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_226, CAD=MGTHRXP3_226.
-Pin AD3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_226, CAD=MGTHRXN3_226.
-Pin AD8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_226, CAD=MGTHTXN3_226.
-Pin AE7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_226, CAD=MGTHTXP2_226.
-Pin AE2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_226, CAD=MGTHRXP2_226.
-Pin AE1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_226, CAD=MGTHRXN2_226.
-Pin AE6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_226, CAD=MGTHTXN2_226.
-Pin AF9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_226, CAD=MGTHTXP1_226.
-Pin AF4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_226, CAD=MGTHRXP1_226.
-Pin AF3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_226, CAD=MGTHRXN1_226.
-Pin AF8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_226, CAD=MGTHTXN1_226.
-Pin AG7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_226, CAD=MGTHTXP0_226.
-Pin AG2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_226, CAD=MGTHRXP0_226.
-Pin AG1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_226, CAD=MGTHRXN0_226.
-Pin AG6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_226, CAD=MGTHTXN0_226.
-Pin Y9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_227, CAD=MGTHTXP3_227.
-Pin Y4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_227, CAD=MGTHRXP3_227.
-Pin Y3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_227, CAD=MGTHRXN3_227.
-Pin Y8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_227, CAD=MGTHTXN3_227.
-Pin AA7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_227, CAD=MGTHTXP2_227.
-Pin AA2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_227, CAD=MGTHRXP2_227.
-Pin AA1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_227, CAD=MGTHRXN2_227.
-Pin AA6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_227, CAD=MGTHTXN2_227.
-Pin AB9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_227, CAD=MGTHTXP1_227.
-Pin AB4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_227, CAD=MGTHRXP1_227.
-Pin AB3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_227, CAD=MGTHRXN1_227.
-Pin AB8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_227, CAD=MGTHTXN1_227.
-Pin AC7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_227, CAD=MGTHTXP0_227.
-Pin AC2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_227, CAD=MGTHRXP0_227.
-Pin AC1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_227, CAD=MGTHRXN0_227.
-Pin AC6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_227, CAD=MGTHTXN0_227.
-Pin T9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_228, CAD=MGTHTXP3_228.
-Pin T4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_228, CAD=MGTHRXP3_228.
-Pin T3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_228, CAD=MGTHRXN3_228.
-Pin T8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_228, CAD=MGTHTXN3_228.
-Pin U7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_228, CAD=MGTHTXP2_228.
-Pin U2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_228, CAD=MGTHRXP2_228.
-Pin U1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_228, CAD=MGTHRXN2_228.
-Pin U6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_228, CAD=MGTHTXN2_228.
-Pin V9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_228, CAD=MGTHTXP1_228.
-Pin V4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_228, CAD=MGTHRXP1_228.
-Pin V3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_228, CAD=MGTHRXN1_228.
-Pin V8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_228, CAD=MGTHTXN1_228.
-Pin W7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_228, CAD=MGTHTXP0_228.
-Pin W2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_228, CAD=MGTHRXP0_228.
-Pin W1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_228, CAD=MGTHRXN0_228.
-Pin W6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_228, CAD=MGTHTXN0_228.
-Pin M9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_229, CAD=MGTHTXP3_229.
-Pin M4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_229, CAD=MGTHRXP3_229.
-Pin M3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_229, CAD=MGTHRXN3_229.
-Pin M8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_229, CAD=MGTHTXN3_229.
-Pin N7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_229, CAD=MGTHTXP2_229.
-Pin N2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_229, CAD=MGTHRXP2_229.
-Pin N1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_229, CAD=MGTHRXN2_229.
-Pin N6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_229, CAD=MGTHTXN2_229.
-Pin P9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_229, CAD=MGTHTXP1_229.
-Pin P4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_229, CAD=MGTHRXP1_229.
-Pin P3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_229, CAD=MGTHRXN1_229.
-Pin P8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_229, CAD=MGTHTXN1_229.
-Pin R7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_229, CAD=MGTHTXP0_229.
-Pin R2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_229, CAD=MGTHRXP0_229.
-Pin R1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_229, CAD=MGTHRXN0_229.
-Pin R6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_229, CAD=MGTHTXN0_229.
-Pin H9 name differs in XLX and CAD pinout files XLX=MGTYTXP3_230, CAD=MGTHTXP3_230.
-Pin H4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_230, CAD=MGTHRXP3_230.
-Pin H3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_230, CAD=MGTHRXN3_230.
-Pin H8 name differs in XLX and CAD pinout files XLX=MGTYTXN3_230, CAD=MGTHTXN3_230.
-Pin J7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_230, CAD=MGTHTXP2_230.
-Pin J2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_230, CAD=MGTHRXP2_230.
-Pin J1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_230, CAD=MGTHRXN2_230.
-Pin J6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_230, CAD=MGTHTXN2_230.
-Pin K9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_230, CAD=MGTHTXP1_230.
-Pin K4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_230, CAD=MGTHRXP1_230.
-Pin K3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_230, CAD=MGTHRXN1_230.
-Pin K8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_230, CAD=MGTHTXN1_230.
-Pin L7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_230, CAD=MGTHTXP0_230.
-Pin L2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_230, CAD=MGTHRXP0_230.
-Pin L1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_230, CAD=MGTHRXN0_230.
-Pin L6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_230, CAD=MGTHTXN0_230.
-Pin F13 name differs in XLX and CAD pinout files XLX=MGTYTXP3_231, CAD=MGTHTXP3_231.
-Pin E16 name differs in XLX and CAD pinout files XLX=MGTYRXP3_231, CAD=MGTHRXP3_231.
-Pin E15 name differs in XLX and CAD pinout files XLX=MGTYRXN3_231, CAD=MGTHRXN3_231.
-Pin F12 name differs in XLX and CAD pinout files XLX=MGTYTXN3_231, CAD=MGTHTXN3_231.
-Pin G11 name differs in XLX and CAD pinout files XLX=MGTYTXP2_231, CAD=MGTHTXP2_231.
-Pin G16 name differs in XLX and CAD pinout files XLX=MGTYRXP2_231, CAD=MGTHRXP2_231.
-Pin G15 name differs in XLX and CAD pinout files XLX=MGTYRXN2_231, CAD=MGTHRXN2_231.
-Pin G10 name differs in XLX and CAD pinout files XLX=MGTYTXN2_231, CAD=MGTHTXN2_231.
-Pin F9 name differs in XLX and CAD pinout files XLX=MGTYTXP1_231, CAD=MGTHTXP1_231.
-Pin F4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_231, CAD=MGTHRXP1_231.
-Pin F3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_231, CAD=MGTHRXN1_231.
-Pin F8 name differs in XLX and CAD pinout files XLX=MGTYTXN1_231, CAD=MGTHTXN1_231.
-Pin G7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_231, CAD=MGTHTXP0_231.
-Pin G2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_231, CAD=MGTHRXP0_231.
-Pin G1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_231, CAD=MGTHRXN0_231.
-Pin G6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_231, CAD=MGTHTXN0_231.
-Pin A7 name differs in XLX and CAD pinout files XLX=MGTYTXP3_232, CAD=MGTHTXP3_232.
-Pin B4 name differs in XLX and CAD pinout files XLX=MGTYRXP3_232, CAD=MGTHRXP3_232.
-Pin B3 name differs in XLX and CAD pinout files XLX=MGTYRXN3_232, CAD=MGTHRXN3_232.
-Pin A6 name differs in XLX and CAD pinout files XLX=MGTYTXN3_232, CAD=MGTHTXN3_232.
-Pin C7 name differs in XLX and CAD pinout files XLX=MGTYTXP2_232, CAD=MGTHTXP2_232.
-Pin C2 name differs in XLX and CAD pinout files XLX=MGTYRXP2_232, CAD=MGTHRXP2_232.
-Pin C1 name differs in XLX and CAD pinout files XLX=MGTYRXN2_232, CAD=MGTHRXN2_232.
-Pin C6 name differs in XLX and CAD pinout files XLX=MGTYTXN2_232, CAD=MGTHTXN2_232.
-Pin E11 name differs in XLX and CAD pinout files XLX=MGTYTXP1_232, CAD=MGTHTXP1_232.
-Pin D4 name differs in XLX and CAD pinout files XLX=MGTYRXP1_232, CAD=MGTHRXP1_232.
-Pin D3 name differs in XLX and CAD pinout files XLX=MGTYRXN1_232, CAD=MGTHRXN1_232.
-Pin E10 name differs in XLX and CAD pinout files XLX=MGTYTXN1_232, CAD=MGTHTXN1_232.
-Pin E7 name differs in XLX and CAD pinout files XLX=MGTYTXP0_232, CAD=MGTHTXP0_232.
-Pin E2 name differs in XLX and CAD pinout files XLX=MGTYRXP0_232, CAD=MGTHRXP0_232.
-Pin E1 name differs in XLX and CAD pinout files XLX=MGTYRXN0_232, CAD=MGTHRXN0_232.
-Pin E6 name differs in XLX and CAD pinout files XLX=MGTYTXN0_232, CAD=MGTHTXN0_232.
-Pin A11 name differs in XLX and CAD pinout files XLX=MGTYTXP3_233, CAD=MGTHTXP3_233.
-Pin A16 name differs in XLX and CAD pinout files XLX=MGTYRXP3_233, CAD=MGTHRXP3_233.
-Pin A15 name differs in XLX and CAD pinout files XLX=MGTYRXN3_233, CAD=MGTHRXN3_233.
-Pin A10 name differs in XLX and CAD pinout files XLX=MGTYTXN3_233, CAD=MGTHTXN3_233.
-Pin B9 name differs in XLX and CAD pinout files XLX=MGTYTXP2_233, CAD=MGTHTXP2_233.
-Pin B14 name differs in XLX and CAD pinout files XLX=MGTYRXP2_233, CAD=MGTHRXP2_233.
-Pin B13 name differs in XLX and CAD pinout files XLX=MGTYRXN2_233, CAD=MGTHRXN2_233.
-Pin B8 name differs in XLX and CAD pinout files XLX=MGTYTXN2_233, CAD=MGTHTXN2_233.
-Pin C11 name differs in XLX and CAD pinout files XLX=MGTYTXP1_233, CAD=MGTHTXP1_233.
-Pin C16 name differs in XLX and CAD pinout files XLX=MGTYRXP1_233, CAD=MGTHRXP1_233.
-Pin C15 name differs in XLX and CAD pinout files XLX=MGTYRXN1_233, CAD=MGTHRXN1_233.
-Pin C10 name differs in XLX and CAD pinout files XLX=MGTYTXN1_233, CAD=MGTHTXN1_233.
-Pin D9 name differs in XLX and CAD pinout files XLX=MGTYTXP0_233, CAD=MGTHTXP0_233.
-Pin D14 name differs in XLX and CAD pinout files XLX=MGTYRXP0_233, CAD=MGTHRXP0_233.
-Pin D13 name differs in XLX and CAD pinout files XLX=MGTYRXN0_233, CAD=MGTHRXN0_233.
-Pin D8 name differs in XLX and CAD pinout files XLX=MGTYTXN0_233, CAD=MGTHTXN0_233.
-Pin AN17 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_84.
-Pin AP14 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_84.
-Pin AR11 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_84.
-Pin AU15 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_84.
-Pin AV12 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_94.
-Pin AY16 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_94.
-Pin BA13 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_94.
-Pin BC17 name differs in XLX and CAD pinout files XLX=VCCO_64, CAD=VCCO_94.
-Pin AW16 name differs in XLX and CAD pinout files XLX=NC, CAD=VREF_94.
-Please check if net SLRX4_P<4>_A should be connected to pin MGTYRXN3_120 (BD44).
-Please check if net SLRX4_P<6>_A should be connected to pin MGTYRXN2_120 (BF44).
-Please check if net SLRX4_P<10>_A should be connected to pin MGTYRXN0_121 (BC46).
-Please check if net SLRX4_P<8>_A should be connected to pin MGTYRXN3_122 (AT44).
-Please check if net SLRX5_P<8>_A should be connected to pin MGTYRXN3_125 (AH44).
-Please check if net SLRX5_P<6>_A should be connected to pin MGTYRXN2_125 (AJ46).
-Please check if net SLRX5_P<4>_A should be connected to pin MGTYRXN1_125 (AK44).
-Please check if net SLRX5_P<10>_A should be connected to pin MGTYRXN0_126 (AG46).
-Please check if net SLRX6_P<8>_A should be connected to pin MGTYRXN3_128 (T44).
-Please check if net SLRX6_P<6>_A should be connected to pin MGTYRXN2_128 (U46).
-Please check if net SLRX6_P<4>_A should be connected to pin MGTYRXN1_128 (V44).
-Please check if net SLRX6_P<10>_A should be connected to pin MGTYRXN0_129 (R46).
-Please check if net SLRX7_P<7>_A should be connected to pin MGTYRXN3_131 (E32).
-Please check if net SLRX7_P<9>_A should be connected to pin MGTYRXN2_131 (G32).
-Please check if net SLRX7_P<4>_A should be connected to pin MGTYRXN1_131 (F44).
-Please check if net SLRX7_P<10>_A should be connected to pin MGTYRXN2_132 (C46).
-Please check if net SLRX7_P<8>_A should be connected to pin MGTYRXN1_132 (D44).
-Please check if net SLRX7_P<6>_A should be connected to pin MGTYRXN0_132 (E46).
-Please check if net SLRX8_P<0>_A should be connected to pin MGTYRXN3_133 (A32).
-Please check if net SLRX8_P<3>_A should be connected to pin MGTYRXN2_133 (B34).
-Please check if net SLRX8_P<1>_A should be connected to pin MGTYRXN1_133 (C32).
-Please check if net SLRX8_P<5>_A should be connected to pin MGTYRXN0_133 (D34).
-Please check if net SLRX0_P<0>_A should be connected to pin MGTHRXN2_220 (BF3).
-Please check if net TPTX0_P<7>_A should be connected to pin MGTHTXN2_220 (BE6).
-Please check if net SLRX0_P<2>_A should be connected to pin MGTHRXN1_220 (BD13).
-Please check if net SLRX0_P<9>_A should be connected to pin MGTHRXN3_221 (AY3).
-Please check if net SLRX0_P<7>_A should be connected to pin MGTHRXN2_221 (BA1).
-Please check if net TPTX0_P<2>_A should be connected to pin MGTHTXN2_221 (BA6).
-Please check if net SLRX0_P<5>_A should be connected to pin MGTHRXN1_221 (BB3).
-Please check if net TPTX0_P<6>_A should be connected to pin MGTHTXN3_222 (AT8).
-Please check if net TPTX0_P<8>_A should be connected to pin MGTHTXN2_222 (AU6).
-Please check if net SLRX0_P<10>_A should be connected to pin MGTHRXN1_222 (AV3).
-Please check if net TPTX0_P<4>_A should be connected to pin MGTHTXN1_222 (AV8).
-Please check if net SLRX0_P<11>_A should be connected to pin MGTHRXN0_222 (AW1).
-Please check if net TPTX0_P<10>_A should be connected to pin MGTHTXN0_222 (AW6).
-Please check if net SLRX1_P<0>_A should be connected to pin MGTHRXN2_224 (AN1).
-Please check if net SLRX1_P<2>_A should be connected to pin MGTHRXN1_224 (AP3).
-Please check if net SLRX1_P<9>_A should be connected to pin MGTHRXN3_225 (AH3).
-Please check if net TPTX1_P<11>_A should be connected to pin MGTHTXN3_225 (AH8).
-Please check if net SLRX1_P<7>_A should be connected to pin MGTHRXN2_225 (AJ1).
-Please check if net TPTX1_P<2>_A should be connected to pin MGTHTXN2_225 (AJ6).
-Please check if net SLRX1_P<5>_A should be connected to pin MGTHRXN1_225 (AK3).
-Please check if net TPTX1_P<7>_A should be connected to pin MGTHTXN0_225 (AL6).
-Please check if net TPTX1_P<6>_A should be connected to pin MGTHTXN3_226 (AD8).
-Please check if net TPTX1_P<8>_A should be connected to pin MGTHTXN2_226 (AE6).
-Please check if net SLRX1_P<10>_A should be connected to pin MGTHRXN1_226 (AF3).
-Please check if net TPTX1_P<4>_A should be connected to pin MGTHTXN1_226 (AF8).
-Please check if net SLRX1_P<11>_A should be connected to pin MGTHRXN0_226 (AG1).
-Please check if net TPTX1_P<10>_A should be connected to pin MGTHTXN0_226 (AG6).
-Please check if net SLRX2_P<1>_A should be connected to pin MGTHRXN3_227 (Y3).
-Please check if net SLRX2_P<4>_A should be connected to pin MGTHRXN2_227 (AA1).
-Please check if net SLRX2_P<2>_A should be connected to pin MGTHRXN1_227 (AB3).
-Please check if net SLRX2_P<0>_A should be connected to pin MGTHRXN0_227 (AC1).
-Please check if net SLRX2_P<3>_A should be connected to pin MGTHRXN0_228 (W1).
-Please check if net SLRX2_P<6>_A should be connected to pin MGTHRXN3_229 (M3).
-Please check if net SLRX2_P<8>_A should be connected to pin MGTHRXN2_229 (N1).
-Please check if net SLRX3_P<4>_A should be connected to pin MGTHRXN0_230 (L1).
-Please check if net SLRX3_P<6>_A should be connected to pin MGTHRXN3_231 (E15).
-Please check if net SLRX3_P<8>_A should be connected to pin MGTHRXN2_231 (G15).
-Please check if net SLRX3_P<3>_A should be connected to pin MGTHRXN3_232 (B3).
-Please check if net SLRX3_P<1>_A should be connected to pin MGTHRXN0_232 (E1).
-Please check if net SLRX8_P<4>_A should be connected to pin MGTHRXN3_233 (A15).
-Please check if net SLRX8_P<6>_A should be connected to pin MGTHRXN0_233 (D13).
-Please check if net SLRX4_N<4>_A should be connected to pin MGTYRXP3_120 (BD43).
-Please check if net SLRX4_N<6>_A should be connected to pin MGTYRXP2_120 (BF43).
-Please check if net SLRX4_N<10>_A should be connected to pin MGTYRXP0_121 (BC45).
-Please check if net SLRX4_N<8>_A should be connected to pin MGTYRXP3_122 (AT43).
-Please check if net SLRX5_N<8>_A should be connected to pin MGTYRXP3_125 (AH43).
-Please check if net SLRX5_N<6>_A should be connected to pin MGTYRXP2_125 (AJ45).
-Please check if net SLRX5_N<4>_A should be connected to pin MGTYRXP1_125 (AK43).
-Please check if net SLRX5_N<10>_A should be connected to pin MGTYRXP0_126 (AG45).
-Please check if net SLRX6_N<8>_A should be connected to pin MGTYRXP3_128 (T43).
-Please check if net SLRX6_N<6>_A should be connected to pin MGTYRXP2_128 (U45).
-Please check if net SLRX6_N<4>_A should be connected to pin MGTYRXP1_128 (V43).
-Please check if net SLRX6_N<10>_A should be connected to pin MGTYRXP0_129 (R45).
-Please check if net SLRX7_N<7>_A should be connected to pin MGTYRXP3_131 (E31).
-Please check if net SLRX7_N<9>_A should be connected to pin MGTYRXP2_131 (G31).
-Please check if net SLRX7_N<4>_A should be connected to pin MGTYRXP1_131 (F43).
-Please check if net SLRX7_N<10>_A should be connected to pin MGTYRXP2_132 (C45).
-Please check if net SLRX7_N<8>_A should be connected to pin MGTYRXP1_132 (D43).
-Please check if net SLRX7_N<6>_A should be connected to pin MGTYRXP0_132 (E45).
-Please check if net SLRX8_N<0>_A should be connected to pin MGTYRXP3_133 (A31).
-Please check if net SLRX8_N<3>_A should be connected to pin MGTYRXP2_133 (B33).
-Please check if net SLRX8_N<1>_A should be connected to pin MGTYRXP1_133 (C31).
-Please check if net SLRX8_N<5>_A should be connected to pin MGTYRXP0_133 (D33).
-Please check if net TPTX0_N<7>_A should be connected to pin MGTHTXP2_220 (BE7).
-Please check if net SLRX0_N<0>_A should be connected to pin MGTHRXP2_220 (BF4).
-Please check if net SLRX0_N<2>_A should be connected to pin MGTHRXP1_220 (BD14).
-Please check if net SLRX0_N<9>_A should be connected to pin MGTHRXP3_221 (AY4).
-Please check if net TPTX0_N<2>_A should be connected to pin MGTHTXP2_221 (BA7).
-Please check if net SLRX0_N<7>_A should be connected to pin MGTHRXP2_221 (BA2).
-Please check if net SLRX0_N<5>_A should be connected to pin MGTHRXP1_221 (BB4).
-Please check if net TPTX0_N<6>_A should be connected to pin MGTHTXP3_222 (AT9).
-Please check if net TPTX0_N<8>_A should be connected to pin MGTHTXP2_222 (AU7).
-Please check if net TPTX0_N<4>_A should be connected to pin MGTHTXP1_222 (AV9).
-Please check if net SLRX0_N<10>_A should be connected to pin MGTHRXP1_222 (AV4).
-Please check if net TPTX0_N<10>_A should be connected to pin MGTHTXP0_222 (AW7).
-Please check if net SLRX0_N<11>_A should be connected to pin MGTHRXP0_222 (AW2).
-Please check if net SLRX1_N<0>_A should be connected to pin MGTHRXP2_224 (AN2).
-Please check if net SLRX1_N<2>_A should be connected to pin MGTHRXP1_224 (AP4).
-Please check if net TPTX1_N<11>_A should be connected to pin MGTHTXP3_225 (AH9).
-Please check if net SLRX1_N<9>_A should be connected to pin MGTHRXP3_225 (AH4).
-Please check if net TPTX1_N<2>_A should be connected to pin MGTHTXP2_225 (AJ7).
-Please check if net SLRX1_N<7>_A should be connected to pin MGTHRXP2_225 (AJ2).
-Please check if net SLRX1_N<5>_A should be connected to pin MGTHRXP1_225 (AK4).
-Please check if net TPTX1_N<7>_A should be connected to pin MGTHTXP0_225 (AL7).
-Please check if net TPTX1_N<6>_A should be connected to pin MGTHTXP3_226 (AD9).
-Please check if net TPTX1_N<8>_A should be connected to pin MGTHTXP2_226 (AE7).
-Please check if net TPTX1_N<4>_A should be connected to pin MGTHTXP1_226 (AF9).
-Please check if net SLRX1_N<10>_A should be connected to pin MGTHRXP1_226 (AF4).
-Please check if net TPTX1_N<10>_A should be connected to pin MGTHTXP0_226 (AG7).
-Please check if net SLRX1_N<11>_A should be connected to pin MGTHRXP0_226 (AG2).
-Please check if net SLRX2_N<1>_A should be connected to pin MGTHRXP3_227 (Y4).
-Please check if net SLRX2_N<4>_A should be connected to pin MGTHRXP2_227 (AA2).
-Please check if net SLRX2_N<2>_A should be connected to pin MGTHRXP1_227 (AB4).
-Please check if net SLRX2_N<0>_A should be connected to pin MGTHRXP0_227 (AC2).
-Please check if net SLRX2_N<3>_A should be connected to pin MGTHRXP0_228 (W2).
-Please check if net SLRX2_N<6>_A should be connected to pin MGTHRXP3_229 (M4).
-Please check if net SLRX2_N<8>_A should be connected to pin MGTHRXP2_229 (N2).
-Please check if net SLRX3_N<4>_A should be connected to pin MGTHRXP0_230 (L2).
-Please check if net SLRX3_N<6>_A should be connected to pin MGTHRXP3_231 (E16).
-Please check if net SLRX3_N<8>_A should be connected to pin MGTHRXP2_231 (G16).
-Please check if net SLRX3_N<3>_A should be connected to pin MGTHRXP3_232 (B4).
-Please check if net SLRX3_N<1>_A should be connected to pin MGTHRXP0_232 (E2).
-Please check if net SLRX8_N<4>_A should be connected to pin MGTHRXP3_233 (A16).
-Please check if net SLRX8_N<6>_A should be connected to pin MGTHRXP0_233 (D14).
+Pin M14 name differs in MANUFACTURER and CAD pinout files MAN=rsvdgnd, CAD=cfgbvs_0.
+Pin BF16 name differs in MANUFACTURER and CAD pinout files MAN=io_l23n_t3u_n9_perstn1_i2c_sda_65, CAD=io_l23n_t3u_n9_i2c_sda_65.
+Pin AV19 name differs in MANUFACTURER and CAD pinout files MAN=io_t1u_n12_smbalert_65, CAD=io_t1u_n12_perstn1_65.
+Pin AR17 name differs in MANUFACTURER and CAD pinout files MAN=io_l24n_t3u_n11_64, CAD=io_l24n_t3u_n11_84.
+Pin AP17 name differs in MANUFACTURER and CAD pinout files MAN=io_l24p_t3u_n10_64, CAD=io_l24p_t3u_n10_84.
+Pin AP15 name differs in MANUFACTURER and CAD pinout files MAN=io_l23n_t3u_n9_64, CAD=io_l23n_t3u_n9_84.
+Pin AN15 name differs in MANUFACTURER and CAD pinout files MAN=io_l23p_t3u_n8_64, CAD=io_l23p_t3u_n8_84.
+Pin AV15 name differs in MANUFACTURER and CAD pinout files MAN=io_l22n_t3u_n7_dbc_ad0n_64, CAD=io_l22n_t3u_n7_dbc_ad0n_84.
+Pin AV16 name differs in MANUFACTURER and CAD pinout files MAN=io_l22p_t3u_n6_dbc_ad0p_64, CAD=io_l22p_t3u_n6_dbc_ad0p_84.
+Pin AP16 name differs in MANUFACTURER and CAD pinout files MAN=io_l21n_t3l_n5_ad8n_64, CAD=io_l21n_t3l_n5_ad8n_84.
+Pin AN16 name differs in MANUFACTURER and CAD pinout files MAN=io_l21p_t3l_n4_ad8p_64, CAD=io_l21p_t3l_n4_ad8p_84.
+Pin AU17 name differs in MANUFACTURER and CAD pinout files MAN=io_l20n_t3l_n3_ad1n_64, CAD=io_l20n_t3l_n3_ad1n_84.
+Pin AT17 name differs in MANUFACTURER and CAD pinout files MAN=io_l20p_t3l_n2_ad1p_64, CAD=io_l20p_t3l_n2_ad1p_84.
+Pin AU16 name differs in MANUFACTURER and CAD pinout files MAN=io_l19n_t3l_n1_dbc_ad9n_64, CAD=io_l19n_t3l_n1_dbc_ad9n_84.
+Pin AT16 name differs in MANUFACTURER and CAD pinout files MAN=io_l19p_t3l_n0_dbc_ad9p_64, CAD=io_l19p_t3l_n0_dbc_ad9p_84.
+Pin AM16 name differs in MANUFACTURER and CAD pinout files MAN=io_t3u_n12_64, CAD=io_t3u_n12_84.
+Pin AT11 name differs in MANUFACTURER and CAD pinout files MAN=io_t2u_n12_64, CAD=io_t2u_n12_84.
+Pin AR13 name differs in MANUFACTURER and CAD pinout files MAN=io_l18n_t2u_n11_ad2n_64, CAD=io_l18n_t2u_n11_ad2n_84.
+Pin AP13 name differs in MANUFACTURER and CAD pinout files MAN=io_l18p_t2u_n10_ad2p_64, CAD=io_l18p_t2u_n10_ad2p_84.
+Pin AU11 name differs in MANUFACTURER and CAD pinout files MAN=io_l17n_t2u_n9_ad10n_64, CAD=io_l17n_t2u_n9_ad10n_84.
+Pin AU12 name differs in MANUFACTURER and CAD pinout files MAN=io_l17p_t2u_n8_ad10p_64, CAD=io_l17p_t2u_n8_ad10p_84.
+Pin AR14 name differs in MANUFACTURER and CAD pinout files MAN=io_l16n_t2u_n7_qbc_ad3n_64, CAD=io_l16n_t2u_n7_qbc_ad3n_84.
+Pin AR15 name differs in MANUFACTURER and CAD pinout files MAN=io_l16p_t2u_n6_qbc_ad3p_64, CAD=io_l16p_t2u_n6_qbc_ad3p_84.
+Pin AT12 name differs in MANUFACTURER and CAD pinout files MAN=io_l15n_t2l_n5_ad11n_64, CAD=io_l15n_t2l_n5_ad11n_84.
+Pin AR12 name differs in MANUFACTURER and CAD pinout files MAN=io_l15p_t2l_n4_ad11p_64, CAD=io_l15p_t2l_n4_ad11p_84.
+Pin AT14 name differs in MANUFACTURER and CAD pinout files MAN=io_l14n_t2l_n3_gc_64, CAD=io_l14n_t2l_n3_gc_84.
+Pin AT15 name differs in MANUFACTURER and CAD pinout files MAN=io_l14p_t2l_n2_gc_64, CAD=io_l14p_t2l_n2_gc_84.
+Pin AU13 name differs in MANUFACTURER and CAD pinout files MAN=io_l13n_t2l_n1_gc_qbc_64, CAD=io_l13n_t2l_n1_gc_qbc_84.
+Pin AU14 name differs in MANUFACTURER and CAD pinout files MAN=io_l13p_t2l_n0_gc_qbc_64, CAD=io_l13p_t2l_n0_gc_qbc_84.
+Pin AW12 name differs in MANUFACTURER and CAD pinout files MAN=io_l12n_t1u_n11_gc_64, CAD=io_l12n_t1u_n11_gc_94.
+Pin AW13 name differs in MANUFACTURER and CAD pinout files MAN=io_l12p_t1u_n10_gc_64, CAD=io_l12p_t1u_n10_gc_94.
+Pin AV13 name differs in MANUFACTURER and CAD pinout files MAN=io_l11n_t1u_n9_gc_64, CAD=io_l11n_t1u_n9_gc_94.
+Pin AV14 name differs in MANUFACTURER and CAD pinout files MAN=io_l11p_t1u_n8_gc_64, CAD=io_l11p_t1u_n8_gc_94.
+Pin BB11 name differs in MANUFACTURER and CAD pinout files MAN=io_l10n_t1u_n7_qbc_ad4n_64, CAD=io_l10n_t1u_n7_qbc_ad4n_94.
+Pin BA11 name differs in MANUFACTURER and CAD pinout files MAN=io_l10p_t1u_n6_qbc_ad4p_64, CAD=io_l10p_t1u_n6_qbc_ad4p_94.
+Pin BA12 name differs in MANUFACTURER and CAD pinout files MAN=io_l9n_t1l_n5_ad12n_64, CAD=io_l9n_t1l_n5_ad12n_94.
+Pin AY12 name differs in MANUFACTURER and CAD pinout files MAN=io_l9p_t1l_n4_ad12p_64, CAD=io_l9p_t1l_n4_ad12p_94.
+Pin BB12 name differs in MANUFACTURER and CAD pinout files MAN=io_l8n_t1l_n3_ad5n_64, CAD=io_l8n_t1l_n3_ad5n_94.
+Pin BB13 name differs in MANUFACTURER and CAD pinout files MAN=io_l8p_t1l_n2_ad5p_64, CAD=io_l8p_t1l_n2_ad5p_94.
+Pin AW11 name differs in MANUFACTURER and CAD pinout files MAN=io_l7n_t1l_n1_qbc_ad13n_64, CAD=io_l7n_t1l_n1_qbc_ad13n_94.
+Pin AV11 name differs in MANUFACTURER and CAD pinout files MAN=io_l7p_t1l_n0_qbc_ad13p_64, CAD=io_l7p_t1l_n0_qbc_ad13p_94.
+Pin AY13 name differs in MANUFACTURER and CAD pinout files MAN=io_t1u_n12_64, CAD=io_t1u_n12_94.
+Pin BC16 name differs in MANUFACTURER and CAD pinout files MAN=io_t0u_n12_vrp_64, CAD=io_t0u_n12_94.
+Pin BA17 name differs in MANUFACTURER and CAD pinout files MAN=io_l6n_t0u_n11_ad6n_64, CAD=io_l6n_t0u_n11_ad6n_94.
+Pin AY17 name differs in MANUFACTURER and CAD pinout files MAN=io_l6p_t0u_n10_ad6p_64, CAD=io_l6p_t0u_n10_ad6p_94.
+Pin BB14 name differs in MANUFACTURER and CAD pinout files MAN=io_l5n_t0u_n9_ad14n_64, CAD=io_l5n_t0u_n9_ad14n_94.
+Pin BA14 name differs in MANUFACTURER and CAD pinout files MAN=io_l5p_t0u_n8_ad14p_64, CAD=io_l5p_t0u_n8_ad14p_94.
+Pin BB16 name differs in MANUFACTURER and CAD pinout files MAN=io_l4n_t0u_n7_dbc_ad7n_64, CAD=io_l4n_t0u_n7_dbc_ad7n_94.
+Pin BB17 name differs in MANUFACTURER and CAD pinout files MAN=io_l4p_t0u_n6_dbc_ad7p_64, CAD=io_l4p_t0u_n6_dbc_ad7p_94.
+Pin BB15 name differs in MANUFACTURER and CAD pinout files MAN=io_l3n_t0l_n5_ad15n_64, CAD=io_l3n_t0l_n5_ad15n_94.
+Pin BA16 name differs in MANUFACTURER and CAD pinout files MAN=io_l3p_t0l_n4_ad15p_64, CAD=io_l3p_t0l_n4_ad15p_94.
+Pin AY14 name differs in MANUFACTURER and CAD pinout files MAN=io_l2n_t0l_n3_64, CAD=io_l2n_t0l_n3_94.
+Pin AW15 name differs in MANUFACTURER and CAD pinout files MAN=io_l2p_t0l_n2_64, CAD=io_l2p_t0l_n2_94.
+Pin BA15 name differs in MANUFACTURER and CAD pinout files MAN=io_l1n_t0l_n1_dbc_64, CAD=io_l1n_t0l_n1_dbc_94.
+Pin AY15 name differs in MANUFACTURER and CAD pinout files MAN=io_l1p_t0l_n0_dbc_64, CAD=io_l1p_t0l_n0_dbc_94.
+Pin AM17 name differs in MANUFACTURER and CAD pinout files MAN=vref_64, CAD=vref_84.
+Pin BD9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_220, CAD=mgthtxp3_220.
+Pin BD4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_220, CAD=mgthrxp3_220.
+Pin BD3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_220, CAD=mgthrxn3_220.
+Pin BD8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_220, CAD=mgthtxn3_220.
+Pin BE7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_220, CAD=mgthtxp2_220.
+Pin BF4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_220, CAD=mgthrxp2_220.
+Pin BF3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_220, CAD=mgthrxn2_220.
+Pin BE6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_220, CAD=mgthtxn2_220.
+Pin BE11 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_220, CAD=mgthtxp1_220.
+Pin BD14 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_220, CAD=mgthrxp1_220.
+Pin BD13 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_220, CAD=mgthrxn1_220.
+Pin BE10 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_220, CAD=mgthtxn1_220.
+Pin BF9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_220, CAD=mgthtxp0_220.
+Pin BF14 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_220, CAD=mgthrxp0_220.
+Pin BF13 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_220, CAD=mgthrxn0_220.
+Pin BF8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_220, CAD=mgthtxn0_220.
+Pin AY9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_221, CAD=mgthtxp3_221.
+Pin AY4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_221, CAD=mgthrxp3_221.
+Pin AY3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_221, CAD=mgthrxn3_221.
+Pin AY8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_221, CAD=mgthtxn3_221.
+Pin BA7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_221, CAD=mgthtxp2_221.
+Pin BA2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_221, CAD=mgthrxp2_221.
+Pin BA1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_221, CAD=mgthrxn2_221.
+Pin BA6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_221, CAD=mgthtxn2_221.
+Pin BB9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_221, CAD=mgthtxp1_221.
+Pin BB4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_221, CAD=mgthrxp1_221.
+Pin BB3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_221, CAD=mgthrxn1_221.
+Pin BB8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_221, CAD=mgthtxn1_221.
+Pin BC7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_221, CAD=mgthtxp0_221.
+Pin BC2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_221, CAD=mgthrxp0_221.
+Pin BC1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_221, CAD=mgthrxn0_221.
+Pin BC6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_221, CAD=mgthtxn0_221.
+Pin AT9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_222, CAD=mgthtxp3_222.
+Pin AT4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_222, CAD=mgthrxp3_222.
+Pin AT3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_222, CAD=mgthrxn3_222.
+Pin AT8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_222, CAD=mgthtxn3_222.
+Pin AU7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_222, CAD=mgthtxp2_222.
+Pin AU2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_222, CAD=mgthrxp2_222.
+Pin AU1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_222, CAD=mgthrxn2_222.
+Pin AU6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_222, CAD=mgthtxn2_222.
+Pin AV9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_222, CAD=mgthtxp1_222.
+Pin AV4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_222, CAD=mgthrxp1_222.
+Pin AV3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_222, CAD=mgthrxn1_222.
+Pin AV8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_222, CAD=mgthtxn1_222.
+Pin AW7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_222, CAD=mgthtxp0_222.
+Pin AW2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_222, CAD=mgthrxp0_222.
+Pin AW1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_222, CAD=mgthrxn0_222.
+Pin AW6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_222, CAD=mgthtxn0_222.
+Pin AM9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_224, CAD=mgthtxp3_224.
+Pin AM4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_224, CAD=mgthrxp3_224.
+Pin AM3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_224, CAD=mgthrxn3_224.
+Pin AM8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_224, CAD=mgthtxn3_224.
+Pin AN7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_224, CAD=mgthtxp2_224.
+Pin AN2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_224, CAD=mgthrxp2_224.
+Pin AN1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_224, CAD=mgthrxn2_224.
+Pin AN6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_224, CAD=mgthtxn2_224.
+Pin AP9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_224, CAD=mgthtxp1_224.
+Pin AP4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_224, CAD=mgthrxp1_224.
+Pin AP3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_224, CAD=mgthrxn1_224.
+Pin AP8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_224, CAD=mgthtxn1_224.
+Pin AR7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_224, CAD=mgthtxp0_224.
+Pin AR2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_224, CAD=mgthrxp0_224.
+Pin AR1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_224, CAD=mgthrxn0_224.
+Pin AR6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_224, CAD=mgthtxn0_224.
+Pin AH9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_225, CAD=mgthtxp3_225.
+Pin AH4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_225, CAD=mgthrxp3_225.
+Pin AH3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_225, CAD=mgthrxn3_225.
+Pin AH8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_225, CAD=mgthtxn3_225.
+Pin AJ7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_225, CAD=mgthtxp2_225.
+Pin AJ2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_225, CAD=mgthrxp2_225.
+Pin AJ1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_225, CAD=mgthrxn2_225.
+Pin AJ6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_225, CAD=mgthtxn2_225.
+Pin AK9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_225, CAD=mgthtxp1_225.
+Pin AK4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_225, CAD=mgthrxp1_225.
+Pin AK3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_225, CAD=mgthrxn1_225.
+Pin AK8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_225, CAD=mgthtxn1_225.
+Pin AL7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_225, CAD=mgthtxp0_225.
+Pin AL2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_225, CAD=mgthrxp0_225.
+Pin AL1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_225, CAD=mgthrxn0_225.
+Pin AL6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_225, CAD=mgthtxn0_225.
+Pin AD9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_226, CAD=mgthtxp3_226.
+Pin AD4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_226, CAD=mgthrxp3_226.
+Pin AD3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_226, CAD=mgthrxn3_226.
+Pin AD8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_226, CAD=mgthtxn3_226.
+Pin AE7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_226, CAD=mgthtxp2_226.
+Pin AE2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_226, CAD=mgthrxp2_226.
+Pin AE1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_226, CAD=mgthrxn2_226.
+Pin AE6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_226, CAD=mgthtxn2_226.
+Pin AF9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_226, CAD=mgthtxp1_226.
+Pin AF4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_226, CAD=mgthrxp1_226.
+Pin AF3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_226, CAD=mgthrxn1_226.
+Pin AF8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_226, CAD=mgthtxn1_226.
+Pin AG7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_226, CAD=mgthtxp0_226.
+Pin AG2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_226, CAD=mgthrxp0_226.
+Pin AG1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_226, CAD=mgthrxn0_226.
+Pin AG6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_226, CAD=mgthtxn0_226.
+Pin Y9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_227, CAD=mgthtxp3_227.
+Pin Y4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_227, CAD=mgthrxp3_227.
+Pin Y3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_227, CAD=mgthrxn3_227.
+Pin Y8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_227, CAD=mgthtxn3_227.
+Pin AA7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_227, CAD=mgthtxp2_227.
+Pin AA2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_227, CAD=mgthrxp2_227.
+Pin AA1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_227, CAD=mgthrxn2_227.
+Pin AA6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_227, CAD=mgthtxn2_227.
+Pin AB9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_227, CAD=mgthtxp1_227.
+Pin AB4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_227, CAD=mgthrxp1_227.
+Pin AB3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_227, CAD=mgthrxn1_227.
+Pin AB8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_227, CAD=mgthtxn1_227.
+Pin AC7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_227, CAD=mgthtxp0_227.
+Pin AC2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_227, CAD=mgthrxp0_227.
+Pin AC1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_227, CAD=mgthrxn0_227.
+Pin AC6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_227, CAD=mgthtxn0_227.
+Pin T9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_228, CAD=mgthtxp3_228.
+Pin T4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_228, CAD=mgthrxp3_228.
+Pin T3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_228, CAD=mgthrxn3_228.
+Pin T8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_228, CAD=mgthtxn3_228.
+Pin U7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_228, CAD=mgthtxp2_228.
+Pin U2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_228, CAD=mgthrxp2_228.
+Pin U1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_228, CAD=mgthrxn2_228.
+Pin U6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_228, CAD=mgthtxn2_228.
+Pin V9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_228, CAD=mgthtxp1_228.
+Pin V4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_228, CAD=mgthrxp1_228.
+Pin V3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_228, CAD=mgthrxn1_228.
+Pin V8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_228, CAD=mgthtxn1_228.
+Pin W7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_228, CAD=mgthtxp0_228.
+Pin W2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_228, CAD=mgthrxp0_228.
+Pin W1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_228, CAD=mgthrxn0_228.
+Pin W6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_228, CAD=mgthtxn0_228.
+Pin M9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_229, CAD=mgthtxp3_229.
+Pin M4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_229, CAD=mgthrxp3_229.
+Pin M3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_229, CAD=mgthrxn3_229.
+Pin M8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_229, CAD=mgthtxn3_229.
+Pin N7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_229, CAD=mgthtxp2_229.
+Pin N2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_229, CAD=mgthrxp2_229.
+Pin N1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_229, CAD=mgthrxn2_229.
+Pin N6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_229, CAD=mgthtxn2_229.
+Pin P9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_229, CAD=mgthtxp1_229.
+Pin P4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_229, CAD=mgthrxp1_229.
+Pin P3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_229, CAD=mgthrxn1_229.
+Pin P8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_229, CAD=mgthtxn1_229.
+Pin R7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_229, CAD=mgthtxp0_229.
+Pin R2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_229, CAD=mgthrxp0_229.
+Pin R1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_229, CAD=mgthrxn0_229.
+Pin R6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_229, CAD=mgthtxn0_229.
+Pin H9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_230, CAD=mgthtxp3_230.
+Pin H4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_230, CAD=mgthrxp3_230.
+Pin H3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_230, CAD=mgthrxn3_230.
+Pin H8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_230, CAD=mgthtxn3_230.
+Pin J7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_230, CAD=mgthtxp2_230.
+Pin J2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_230, CAD=mgthrxp2_230.
+Pin J1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_230, CAD=mgthrxn2_230.
+Pin J6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_230, CAD=mgthtxn2_230.
+Pin K9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_230, CAD=mgthtxp1_230.
+Pin K4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_230, CAD=mgthrxp1_230.
+Pin K3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_230, CAD=mgthrxn1_230.
+Pin K8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_230, CAD=mgthtxn1_230.
+Pin L7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_230, CAD=mgthtxp0_230.
+Pin L2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_230, CAD=mgthrxp0_230.
+Pin L1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_230, CAD=mgthrxn0_230.
+Pin L6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_230, CAD=mgthtxn0_230.
+Pin F13 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_231, CAD=mgthtxp3_231.
+Pin E16 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_231, CAD=mgthrxp3_231.
+Pin E15 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_231, CAD=mgthrxn3_231.
+Pin F12 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_231, CAD=mgthtxn3_231.
+Pin G11 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_231, CAD=mgthtxp2_231.
+Pin G16 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_231, CAD=mgthrxp2_231.
+Pin G15 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_231, CAD=mgthrxn2_231.
+Pin G10 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_231, CAD=mgthtxn2_231.
+Pin F9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_231, CAD=mgthtxp1_231.
+Pin F4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_231, CAD=mgthrxp1_231.
+Pin F3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_231, CAD=mgthrxn1_231.
+Pin F8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_231, CAD=mgthtxn1_231.
+Pin G7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_231, CAD=mgthtxp0_231.
+Pin G2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_231, CAD=mgthrxp0_231.
+Pin G1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_231, CAD=mgthrxn0_231.
+Pin G6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_231, CAD=mgthtxn0_231.
+Pin A7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_232, CAD=mgthtxp3_232.
+Pin B4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_232, CAD=mgthrxp3_232.
+Pin B3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_232, CAD=mgthrxn3_232.
+Pin A6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_232, CAD=mgthtxn3_232.
+Pin C7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_232, CAD=mgthtxp2_232.
+Pin C2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_232, CAD=mgthrxp2_232.
+Pin C1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_232, CAD=mgthrxn2_232.
+Pin C6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_232, CAD=mgthtxn2_232.
+Pin E11 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_232, CAD=mgthtxp1_232.
+Pin D4 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_232, CAD=mgthrxp1_232.
+Pin D3 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_232, CAD=mgthrxn1_232.
+Pin E10 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_232, CAD=mgthtxn1_232.
+Pin E7 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_232, CAD=mgthtxp0_232.
+Pin E2 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_232, CAD=mgthrxp0_232.
+Pin E1 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_232, CAD=mgthrxn0_232.
+Pin E6 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_232, CAD=mgthtxn0_232.
+Pin A11 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp3_233, CAD=mgthtxp3_233.
+Pin A16 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp3_233, CAD=mgthrxp3_233.
+Pin A15 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn3_233, CAD=mgthrxn3_233.
+Pin A10 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn3_233, CAD=mgthtxn3_233.
+Pin B9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp2_233, CAD=mgthtxp2_233.
+Pin B14 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp2_233, CAD=mgthrxp2_233.
+Pin B13 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn2_233, CAD=mgthrxn2_233.
+Pin B8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn2_233, CAD=mgthtxn2_233.
+Pin C11 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp1_233, CAD=mgthtxp1_233.
+Pin C16 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp1_233, CAD=mgthrxp1_233.
+Pin C15 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn1_233, CAD=mgthrxn1_233.
+Pin C10 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn1_233, CAD=mgthtxn1_233.
+Pin D9 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxp0_233, CAD=mgthtxp0_233.
+Pin D14 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxp0_233, CAD=mgthrxp0_233.
+Pin D13 name differs in MANUFACTURER and CAD pinout files MAN=mgtyrxn0_233, CAD=mgthrxn0_233.
+Pin D8 name differs in MANUFACTURER and CAD pinout files MAN=mgtytxn0_233, CAD=mgthtxn0_233.
+Pin AN17 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_84.
+Pin AP14 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_84.
+Pin AR11 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_84.
+Pin AU15 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_84.
+Pin AV12 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_94.
+Pin AY16 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_94.
+Pin BA13 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_94.
+Pin BC17 name differs in MANUFACTURER and CAD pinout files MAN=vcco_64, CAD=vcco_94.
+Pin AW16 name differs in MANUFACTURER and CAD pinout files MAN=nc, CAD=vref_94.
+Please check if net SLRX4_P<4>_A should be connected to pin CAD_PIN:MGTYRXN3_120 MAN_PIN:MGTYRXN3_120 (BD44).
+Please check if net SLRX4_P<6>_A should be connected to pin CAD_PIN:MGTYRXN2_120 MAN_PIN:MGTYRXN2_120 (BF44).
+Please check if net SLRX4_P<10>_A should be connected to pin CAD_PIN:MGTYRXN0_121 MAN_PIN:MGTYRXN0_121 (BC46).
+Please check if net SLRX4_P<8>_A should be connected to pin CAD_PIN:MGTYRXN3_122 MAN_PIN:MGTYRXN3_122 (AT44).
+Please check if net SLRX5_P<8>_A should be connected to pin CAD_PIN:MGTYRXN3_125 MAN_PIN:MGTYRXN3_125 (AH44).
+Please check if net SLRX5_P<6>_A should be connected to pin CAD_PIN:MGTYRXN2_125 MAN_PIN:MGTYRXN2_125 (AJ46).
+Please check if net SLRX5_P<4>_A should be connected to pin CAD_PIN:MGTYRXN1_125 MAN_PIN:MGTYRXN1_125 (AK44).
+Please check if net SLRX5_P<10>_A should be connected to pin CAD_PIN:MGTYRXN0_126 MAN_PIN:MGTYRXN0_126 (AG46).
+Please check if net SLRX6_P<8>_A should be connected to pin CAD_PIN:MGTYRXN3_128 MAN_PIN:MGTYRXN3_128 (T44).
+Please check if net SLRX6_P<6>_A should be connected to pin CAD_PIN:MGTYRXN2_128 MAN_PIN:MGTYRXN2_128 (U46).
+Please check if net SLRX6_P<4>_A should be connected to pin CAD_PIN:MGTYRXN1_128 MAN_PIN:MGTYRXN1_128 (V44).
+Please check if net SLRX6_P<10>_A should be connected to pin CAD_PIN:MGTYRXN0_129 MAN_PIN:MGTYRXN0_129 (R46).
+Please check if net SLRX7_P<7>_A should be connected to pin CAD_PIN:MGTYRXN3_131 MAN_PIN:MGTYRXN3_131 (E32).
+Please check if net SLRX7_P<9>_A should be connected to pin CAD_PIN:MGTYRXN2_131 MAN_PIN:MGTYRXN2_131 (G32).
+Please check if net SLRX7_P<4>_A should be connected to pin CAD_PIN:MGTYRXN1_131 MAN_PIN:MGTYRXN1_131 (F44).
+Please check if net SLRX7_P<10>_A should be connected to pin CAD_PIN:MGTYRXN2_132 MAN_PIN:MGTYRXN2_132 (C46).
+Please check if net SLRX7_P<8>_A should be connected to pin CAD_PIN:MGTYRXN1_132 MAN_PIN:MGTYRXN1_132 (D44).
+Please check if net SLRX7_P<6>_A should be connected to pin CAD_PIN:MGTYRXN0_132 MAN_PIN:MGTYRXN0_132 (E46).
+Please check if net SLRX8_P<0>_A should be connected to pin CAD_PIN:MGTYRXN3_133 MAN_PIN:MGTYRXN3_133 (A32).
+Please check if net SLRX8_P<3>_A should be connected to pin CAD_PIN:MGTYRXN2_133 MAN_PIN:MGTYRXN2_133 (B34).
+Please check if net SLRX8_P<1>_A should be connected to pin CAD_PIN:MGTYRXN1_133 MAN_PIN:MGTYRXN1_133 (C32).
+Please check if net SLRX8_P<5>_A should be connected to pin CAD_PIN:MGTYRXN0_133 MAN_PIN:MGTYRXN0_133 (D34).
+Please check if net SLRX0_P<0>_A should be connected to pin CAD_PIN:MGTHRXN2_220 MAN_PIN:MGTYRXN2_220 (BF3).
+Please check if net TPTX0_P<7>_A should be connected to pin CAD_PIN:MGTHTXN2_220 MAN_PIN:MGTYTXN2_220 (BE6).
+Please check if net SLRX0_P<2>_A should be connected to pin CAD_PIN:MGTHRXN1_220 MAN_PIN:MGTYRXN1_220 (BD13).
+Please check if net SLRX0_P<9>_A should be connected to pin CAD_PIN:MGTHRXN3_221 MAN_PIN:MGTYRXN3_221 (AY3).
+Please check if net SLRX0_P<7>_A should be connected to pin CAD_PIN:MGTHRXN2_221 MAN_PIN:MGTYRXN2_221 (BA1).
+Please check if net TPTX0_P<2>_A should be connected to pin CAD_PIN:MGTHTXN2_221 MAN_PIN:MGTYTXN2_221 (BA6).
+Please check if net SLRX0_P<5>_A should be connected to pin CAD_PIN:MGTHRXN1_221 MAN_PIN:MGTYRXN1_221 (BB3).
+Please check if net TPTX0_P<6>_A should be connected to pin CAD_PIN:MGTHTXN3_222 MAN_PIN:MGTYTXN3_222 (AT8).
+Please check if net TPTX0_P<8>_A should be connected to pin CAD_PIN:MGTHTXN2_222 MAN_PIN:MGTYTXN2_222 (AU6).
+Please check if net SLRX0_P<10>_A should be connected to pin CAD_PIN:MGTHRXN1_222 MAN_PIN:MGTYRXN1_222 (AV3).
+Please check if net TPTX0_P<4>_A should be connected to pin CAD_PIN:MGTHTXN1_222 MAN_PIN:MGTYTXN1_222 (AV8).
+Please check if net SLRX0_P<11>_A should be connected to pin CAD_PIN:MGTHRXN0_222 MAN_PIN:MGTYRXN0_222 (AW1).
+Please check if net TPTX0_P<10>_A should be connected to pin CAD_PIN:MGTHTXN0_222 MAN_PIN:MGTYTXN0_222 (AW6).
+Please check if net SLRX1_P<0>_A should be connected to pin CAD_PIN:MGTHRXN2_224 MAN_PIN:MGTYRXN2_224 (AN1).
+Please check if net SLRX1_P<2>_A should be connected to pin CAD_PIN:MGTHRXN1_224 MAN_PIN:MGTYRXN1_224 (AP3).
+Please check if net SLRX1_P<9>_A should be connected to pin CAD_PIN:MGTHRXN3_225 MAN_PIN:MGTYRXN3_225 (AH3).
+Please check if net TPTX1_P<11>_A should be connected to pin CAD_PIN:MGTHTXN3_225 MAN_PIN:MGTYTXN3_225 (AH8).
+Please check if net SLRX1_P<7>_A should be connected to pin CAD_PIN:MGTHRXN2_225 MAN_PIN:MGTYRXN2_225 (AJ1).
+Please check if net TPTX1_P<2>_A should be connected to pin CAD_PIN:MGTHTXN2_225 MAN_PIN:MGTYTXN2_225 (AJ6).
+Please check if net SLRX1_P<5>_A should be connected to pin CAD_PIN:MGTHRXN1_225 MAN_PIN:MGTYRXN1_225 (AK3).
+Please check if net TPTX1_P<7>_A should be connected to pin CAD_PIN:MGTHTXN0_225 MAN_PIN:MGTYTXN0_225 (AL6).
+Please check if net TPTX1_P<6>_A should be connected to pin CAD_PIN:MGTHTXN3_226 MAN_PIN:MGTYTXN3_226 (AD8).
+Please check if net TPTX1_P<8>_A should be connected to pin CAD_PIN:MGTHTXN2_226 MAN_PIN:MGTYTXN2_226 (AE6).
+Please check if net SLRX1_P<10>_A should be connected to pin CAD_PIN:MGTHRXN1_226 MAN_PIN:MGTYRXN1_226 (AF3).
+Please check if net TPTX1_P<4>_A should be connected to pin CAD_PIN:MGTHTXN1_226 MAN_PIN:MGTYTXN1_226 (AF8).
+Please check if net SLRX1_P<11>_A should be connected to pin CAD_PIN:MGTHRXN0_226 MAN_PIN:MGTYRXN0_226 (AG1).
+Please check if net TPTX1_P<10>_A should be connected to pin CAD_PIN:MGTHTXN0_226 MAN_PIN:MGTYTXN0_226 (AG6).
+Please check if net SLRX2_P<1>_A should be connected to pin CAD_PIN:MGTHRXN3_227 MAN_PIN:MGTYRXN3_227 (Y3).
+Please check if net SLRX2_P<4>_A should be connected to pin CAD_PIN:MGTHRXN2_227 MAN_PIN:MGTYRXN2_227 (AA1).
+Please check if net SLRX2_P<2>_A should be connected to pin CAD_PIN:MGTHRXN1_227 MAN_PIN:MGTYRXN1_227 (AB3).
+Please check if net SLRX2_P<0>_A should be connected to pin CAD_PIN:MGTHRXN0_227 MAN_PIN:MGTYRXN0_227 (AC1).
+Please check if net SLRX2_P<3>_A should be connected to pin CAD_PIN:MGTHRXN0_228 MAN_PIN:MGTYRXN0_228 (W1).
+Please check if net SLRX2_P<6>_A should be connected to pin CAD_PIN:MGTHRXN3_229 MAN_PIN:MGTYRXN3_229 (M3).
+Please check if net SLRX2_P<8>_A should be connected to pin CAD_PIN:MGTHRXN2_229 MAN_PIN:MGTYRXN2_229 (N1).
+Please check if net SLRX3_P<4>_A should be connected to pin CAD_PIN:MGTHRXN0_230 MAN_PIN:MGTYRXN0_230 (L1).
+Please check if net SLRX3_P<6>_A should be connected to pin CAD_PIN:MGTHRXN3_231 MAN_PIN:MGTYRXN3_231 (E15).
+Please check if net SLRX3_P<8>_A should be connected to pin CAD_PIN:MGTHRXN2_231 MAN_PIN:MGTYRXN2_231 (G15).
+Please check if net SLRX3_P<3>_A should be connected to pin CAD_PIN:MGTHRXN3_232 MAN_PIN:MGTYRXN3_232 (B3).
+Please check if net SLRX3_P<1>_A should be connected to pin CAD_PIN:MGTHRXN0_232 MAN_PIN:MGTYRXN0_232 (E1).
+Please check if net SLRX8_P<4>_A should be connected to pin CAD_PIN:MGTHRXN3_233 MAN_PIN:MGTYRXN3_233 (A15).
+Please check if net SLRX8_P<6>_A should be connected to pin CAD_PIN:MGTHRXN0_233 MAN_PIN:MGTYRXN0_233 (D13).
+Please check if net SLRX4_N<4>_A should be connected to pin CAD_PIN:MGTYRXP3_120 MAN_PIN:MGTYRXP3_120 (BD43).
+Please check if net SLRX4_N<6>_A should be connected to pin CAD_PIN:MGTYRXP2_120 MAN_PIN:MGTYRXP2_120 (BF43).
+Please check if net SLRX4_N<10>_A should be connected to pin CAD_PIN:MGTYRXP0_121 MAN_PIN:MGTYRXP0_121 (BC45).
+Please check if net SLRX4_N<8>_A should be connected to pin CAD_PIN:MGTYRXP3_122 MAN_PIN:MGTYRXP3_122 (AT43).
+Please check if net SLRX5_N<8>_A should be connected to pin CAD_PIN:MGTYRXP3_125 MAN_PIN:MGTYRXP3_125 (AH43).
+Please check if net SLRX5_N<6>_A should be connected to pin CAD_PIN:MGTYRXP2_125 MAN_PIN:MGTYRXP2_125 (AJ45).
+Please check if net SLRX5_N<4>_A should be connected to pin CAD_PIN:MGTYRXP1_125 MAN_PIN:MGTYRXP1_125 (AK43).
+Please check if net SLRX5_N<10>_A should be connected to pin CAD_PIN:MGTYRXP0_126 MAN_PIN:MGTYRXP0_126 (AG45).
+Please check if net SLRX6_N<8>_A should be connected to pin CAD_PIN:MGTYRXP3_128 MAN_PIN:MGTYRXP3_128 (T43).
+Please check if net SLRX6_N<6>_A should be connected to pin CAD_PIN:MGTYRXP2_128 MAN_PIN:MGTYRXP2_128 (U45).
+Please check if net SLRX6_N<4>_A should be connected to pin CAD_PIN:MGTYRXP1_128 MAN_PIN:MGTYRXP1_128 (V43).
+Please check if net SLRX6_N<10>_A should be connected to pin CAD_PIN:MGTYRXP0_129 MAN_PIN:MGTYRXP0_129 (R45).
+Please check if net SLRX7_N<7>_A should be connected to pin CAD_PIN:MGTYRXP3_131 MAN_PIN:MGTYRXP3_131 (E31).
+Please check if net SLRX7_N<9>_A should be connected to pin CAD_PIN:MGTYRXP2_131 MAN_PIN:MGTYRXP2_131 (G31).
+Please check if net SLRX7_N<4>_A should be connected to pin CAD_PIN:MGTYRXP1_131 MAN_PIN:MGTYRXP1_131 (F43).
+Please check if net SLRX7_N<10>_A should be connected to pin CAD_PIN:MGTYRXP2_132 MAN_PIN:MGTYRXP2_132 (C45).
+Please check if net SLRX7_N<8>_A should be connected to pin CAD_PIN:MGTYRXP1_132 MAN_PIN:MGTYRXP1_132 (D43).
+Please check if net SLRX7_N<6>_A should be connected to pin CAD_PIN:MGTYRXP0_132 MAN_PIN:MGTYRXP0_132 (E45).
+Please check if net SLRX8_N<0>_A should be connected to pin CAD_PIN:MGTYRXP3_133 MAN_PIN:MGTYRXP3_133 (A31).
+Please check if net SLRX8_N<3>_A should be connected to pin CAD_PIN:MGTYRXP2_133 MAN_PIN:MGTYRXP2_133 (B33).
+Please check if net SLRX8_N<1>_A should be connected to pin CAD_PIN:MGTYRXP1_133 MAN_PIN:MGTYRXP1_133 (C31).
+Please check if net SLRX8_N<5>_A should be connected to pin CAD_PIN:MGTYRXP0_133 MAN_PIN:MGTYRXP0_133 (D33).
+Please check if net TPTX0_N<7>_A should be connected to pin CAD_PIN:MGTHTXP2_220 MAN_PIN:MGTYTXP2_220 (BE7).
+Please check if net SLRX0_N<0>_A should be connected to pin CAD_PIN:MGTHRXP2_220 MAN_PIN:MGTYRXP2_220 (BF4).
+Please check if net SLRX0_N<2>_A should be connected to pin CAD_PIN:MGTHRXP1_220 MAN_PIN:MGTYRXP1_220 (BD14).
+Please check if net SLRX0_N<9>_A should be connected to pin CAD_PIN:MGTHRXP3_221 MAN_PIN:MGTYRXP3_221 (AY4).
+Please check if net TPTX0_N<2>_A should be connected to pin CAD_PIN:MGTHTXP2_221 MAN_PIN:MGTYTXP2_221 (BA7).
+Please check if net SLRX0_N<7>_A should be connected to pin CAD_PIN:MGTHRXP2_221 MAN_PIN:MGTYRXP2_221 (BA2).
+Please check if net SLRX0_N<5>_A should be connected to pin CAD_PIN:MGTHRXP1_221 MAN_PIN:MGTYRXP1_221 (BB4).
+Please check if net TPTX0_N<6>_A should be connected to pin CAD_PIN:MGTHTXP3_222 MAN_PIN:MGTYTXP3_222 (AT9).
+Please check if net TPTX0_N<8>_A should be connected to pin CAD_PIN:MGTHTXP2_222 MAN_PIN:MGTYTXP2_222 (AU7).
+Please check if net TPTX0_N<4>_A should be connected to pin CAD_PIN:MGTHTXP1_222 MAN_PIN:MGTYTXP1_222 (AV9).
+Please check if net SLRX0_N<10>_A should be connected to pin CAD_PIN:MGTHRXP1_222 MAN_PIN:MGTYRXP1_222 (AV4).
+Please check if net TPTX0_N<10>_A should be connected to pin CAD_PIN:MGTHTXP0_222 MAN_PIN:MGTYTXP0_222 (AW7).
+Please check if net SLRX0_N<11>_A should be connected to pin CAD_PIN:MGTHRXP0_222 MAN_PIN:MGTYRXP0_222 (AW2).
+Please check if net SLRX1_N<0>_A should be connected to pin CAD_PIN:MGTHRXP2_224 MAN_PIN:MGTYRXP2_224 (AN2).
+Please check if net SLRX1_N<2>_A should be connected to pin CAD_PIN:MGTHRXP1_224 MAN_PIN:MGTYRXP1_224 (AP4).
+Please check if net TPTX1_N<11>_A should be connected to pin CAD_PIN:MGTHTXP3_225 MAN_PIN:MGTYTXP3_225 (AH9).
+Please check if net SLRX1_N<9>_A should be connected to pin CAD_PIN:MGTHRXP3_225 MAN_PIN:MGTYRXP3_225 (AH4).
+Please check if net TPTX1_N<2>_A should be connected to pin CAD_PIN:MGTHTXP2_225 MAN_PIN:MGTYTXP2_225 (AJ7).
+Please check if net SLRX1_N<7>_A should be connected to pin CAD_PIN:MGTHRXP2_225 MAN_PIN:MGTYRXP2_225 (AJ2).
+Please check if net SLRX1_N<5>_A should be connected to pin CAD_PIN:MGTHRXP1_225 MAN_PIN:MGTYRXP1_225 (AK4).
+Please check if net TPTX1_N<7>_A should be connected to pin CAD_PIN:MGTHTXP0_225 MAN_PIN:MGTYTXP0_225 (AL7).
+Please check if net TPTX1_N<6>_A should be connected to pin CAD_PIN:MGTHTXP3_226 MAN_PIN:MGTYTXP3_226 (AD9).
+Please check if net TPTX1_N<8>_A should be connected to pin CAD_PIN:MGTHTXP2_226 MAN_PIN:MGTYTXP2_226 (AE7).
+Please check if net TPTX1_N<4>_A should be connected to pin CAD_PIN:MGTHTXP1_226 MAN_PIN:MGTYTXP1_226 (AF9).
+Please check if net SLRX1_N<10>_A should be connected to pin CAD_PIN:MGTHRXP1_226 MAN_PIN:MGTYRXP1_226 (AF4).
+Please check if net TPTX1_N<10>_A should be connected to pin CAD_PIN:MGTHTXP0_226 MAN_PIN:MGTYTXP0_226 (AG7).
+Please check if net SLRX1_N<11>_A should be connected to pin CAD_PIN:MGTHRXP0_226 MAN_PIN:MGTYRXP0_226 (AG2).
+Please check if net SLRX2_N<1>_A should be connected to pin CAD_PIN:MGTHRXP3_227 MAN_PIN:MGTYRXP3_227 (Y4).
+Please check if net SLRX2_N<4>_A should be connected to pin CAD_PIN:MGTHRXP2_227 MAN_PIN:MGTYRXP2_227 (AA2).
+Please check if net SLRX2_N<2>_A should be connected to pin CAD_PIN:MGTHRXP1_227 MAN_PIN:MGTYRXP1_227 (AB4).
+Please check if net SLRX2_N<0>_A should be connected to pin CAD_PIN:MGTHRXP0_227 MAN_PIN:MGTYRXP0_227 (AC2).
+Please check if net SLRX2_N<3>_A should be connected to pin CAD_PIN:MGTHRXP0_228 MAN_PIN:MGTYRXP0_228 (W2).
+Please check if net SLRX2_N<6>_A should be connected to pin CAD_PIN:MGTHRXP3_229 MAN_PIN:MGTYRXP3_229 (M4).
+Please check if net SLRX2_N<8>_A should be connected to pin CAD_PIN:MGTHRXP2_229 MAN_PIN:MGTYRXP2_229 (N2).
+Please check if net SLRX3_N<4>_A should be connected to pin CAD_PIN:MGTHRXP0_230 MAN_PIN:MGTYRXP0_230 (L2).
+Please check if net SLRX3_N<6>_A should be connected to pin CAD_PIN:MGTHRXP3_231 MAN_PIN:MGTYRXP3_231 (E16).
+Please check if net SLRX3_N<8>_A should be connected to pin CAD_PIN:MGTHRXP2_231 MAN_PIN:MGTYRXP2_231 (G16).
+Please check if net SLRX3_N<3>_A should be connected to pin CAD_PIN:MGTHRXP3_232 MAN_PIN:MGTYRXP3_232 (B4).
+Please check if net SLRX3_N<1>_A should be connected to pin CAD_PIN:MGTHRXP0_232 MAN_PIN:MGTYRXP0_232 (E2).
+Please check if net SLRX8_N<4>_A should be connected to pin CAD_PIN:MGTHRXP3_233 MAN_PIN:MGTYRXP3_233 (A16).
+Please check if net SLRX8_N<6>_A should be connected to pin CAD_PIN:MGTHRXP0_233 MAN_PIN:MGTYRXP0_233 (D14).

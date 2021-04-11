@@ -9,7 +9,8 @@ schem_data = {
 
 part_specific_data = [
     {
-        'xlx_filename': 'xcvu9pflgc2104pkg.csv',
+        'manufacturer': 'xilinx',
+        'pin_filename': 'xcvu9pflgc2104pkg.csv',
         'cad_part_num': 'XCVU160-H1FLGC2104',
         'cad_instance': 'IC4',
         'gt_types': ('MGTH', 'MGTY'),
@@ -18,7 +19,8 @@ part_specific_data = [
         'ibert_path':'localhost:3121/xilinx_tcf/*/0_1_0_*'
     },
     {
-        'xlx_filename': 'xcvu9pflgc2104pkg.csv',
+        'manufacturer': 'xilinx',
+        'pin_filename': 'xcvu9pflgc2104pkg.csv',
         'cad_part_num': 'XCVU160-H1FLGC2104',
         'cad_instance': 'IC15',
         'gt_types': ('MGTH', 'MGTY'),
@@ -27,7 +29,8 @@ part_specific_data = [
         'ibert_path':'localhost:3121/xilinx_tcf/*/1_1_0_*'
     },
     {
-        'xlx_filename': 'xcku095ffvb2104pkg.csv',
+        'manufacturer': 'xilinx',
+        'pin_filename': 'xcku095ffvb2104pkg.csv',
         'cad_part_num': 'XCKU095-1FFVB2104C',
         'cad_instance': 'IC39',
         'gt_types': ('MGTH', 'MGTY'),
@@ -36,7 +39,8 @@ part_specific_data = [
         'ibert_path':'localhost:3121/xilinx_tcf/*/2_1_0_*'
     },
     {
-        'xlx_filename': 'xczu3egsfvc784pkg.csv',
+        'manufacturer': 'xilinx',
+        'pin_filename': 'xczu3egsfvc784pkg.csv',
         'cad_part_num': 'XCZU3EG-1SFVC784E',
         'cad_instance': 'IC84',
         'gt_types': ('PS_MGTRRX', 'PS_MGTRTX'),

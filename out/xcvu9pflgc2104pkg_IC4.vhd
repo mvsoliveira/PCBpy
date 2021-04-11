@@ -1,16 +1,16 @@
 ----------------------------------------------------------------------------------------------------------------------
 -- Title      : Top-level description for xcvu9pflgc2104pkg
--- Project    : MUCTPI
+-- Project    : LASP
 ----------------------------------------------------------------------------------------------------------------------
 -- File       : xcvu9pflgc2104pkg_IC4.vhd
 -- Author     : Marcos Oliveira
 -- Company    : CERN
 -- Created    : 2021-04-11
 -- Last update: 2021-04-11
--- Platform   : Vivado 2016.3 and Mentor Modelsim SE-64 10.1c
+-- Platform   : Intel Quartus Prime v21.1
 -- Standard   : VHDL'93/02
 ----------------------------------------------------------------------------------------------------------------------
--- Description: Automatically generated with MyPinoutUtils
+-- Description: Automatically generated with PCBpy
 ----------------------------------------------------------------------------------------------------------------------
 -- Copyright (c) 2021 CERN
 ----------------------------------------------------------------------------------------------------------------------

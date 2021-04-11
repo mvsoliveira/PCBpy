@@ -1,9 +1,9 @@
-Pin Y23 name differs in XLX and CAD pinout files XLX=PS_DDR_ACT_N, CAD=PS_DDR_ACT*.
-Pin U25 name differs in XLX and CAD pinout files XLX=PS_DDR_ALERT_N, CAD=PS_DDR_ALERT*.
-Pin U23 name differs in XLX and CAD pinout files XLX=PS_DDR_RAM_RST_N, CAD=PS_DDR_RAM_RST*.
-Please check if net ZYQ_DXP should be connected to pin DXP (U13).
-Please check if net ZYQ_TRP<5> should be connected to pin IO_L3N_AD9N_26 (A13).
-Please check if net ZYQ_TRP<2> should be connected to pin IO_L2N_AD10N_26 (A14).
-Please check if net ZYQ_TRP<3> should be connected to pin IO_L12N_AD8N_25 (C12).
-Please check if net ZYQ_TRP<6> should be connected to pin IO_L11N_AD9N_25 (A11).
-Please check if net ZYQ_DXN should be connected to pin DXN (U12).
+Pin Y23 name differs in MANUFACTURER and CAD pinout files MAN=ps_ddr_act_n, CAD=ps_ddr_act*.
+Pin U25 name differs in MANUFACTURER and CAD pinout files MAN=ps_ddr_alert_n, CAD=ps_ddr_alert*.
+Pin U23 name differs in MANUFACTURER and CAD pinout files MAN=ps_ddr_ram_rst_n, CAD=ps_ddr_ram_rst*.
+Please check if net ZYQ_DXP should be connected to pin CAD_PIN:DXP MAN_PIN:DXP (U13).
+Please check if net ZYQ_TRP<5> should be connected to pin CAD_PIN:IO_L3N_AD9N_26 MAN_PIN:IO_L3N_AD9N_26 (A13).
+Please check if net ZYQ_TRP<2> should be connected to pin CAD_PIN:IO_L2N_AD10N_26 MAN_PIN:IO_L2N_AD10N_26 (A14).
+Please check if net ZYQ_TRP<3> should be connected to pin CAD_PIN:IO_L12N_AD8N_25 MAN_PIN:IO_L12N_AD8N_25 (C12).
+Please check if net ZYQ_TRP<6> should be connected to pin CAD_PIN:IO_L11N_AD9N_25 MAN_PIN:IO_L11N_AD9N_25 (A11).
+Please check if net ZYQ_DXN should be connected to pin CAD_PIN:DXN MAN_PIN:DXN (U12).

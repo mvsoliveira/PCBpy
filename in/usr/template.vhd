@@ -1,16 +1,16 @@
 ----------------------------------------------------------------------------------------------------------------------
 -- Title      : Top-level description for <entity>
--- Project    : MUCTPI
+-- Project    : LASP
 ----------------------------------------------------------------------------------------------------------------------
 -- File       : <filename>
 -- Author     : Marcos Oliveira
 -- Company    : CERN
 -- Created    : <date>
 -- Last update: <date>
--- Platform   : Vivado 2016.3 and Mentor Modelsim SE-64 10.1c
+-- Platform   : Intel Quartus Prime v21.1
 -- Standard   : VHDL'93/02
 ----------------------------------------------------------------------------------------------------------------------
--- Description: Automatically generated with MyPinoutUtils
+-- Description: Automatically generated with PCBpy
 ----------------------------------------------------------------------------------------------------------------------
 -- Copyright (c) <year> CERN
 ----------------------------------------------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-Pin  | Xilinx pin name                      | Schematics pin name                  | Schematics net name                  | Schematics net name with index      
+Pin  | Pinout file pin name                 | Schematics pin name                  | Schematics net name                  | Schematics net name with index      
 
 AE19 | DXN                                  | DXN                                  | TEMP_DXN_A                           | TEMP_DXN_A                          
 AE20 | DXP                                  | DXP                                  | TEMP_DXP_A                           | TEMP_DXP_A                          

@@ -64,12 +64,12 @@ def PCBpy(part_specific_data, schem_data):
 
     # Reading pinout file
     if part_specific_data['manufacturer'] == 'xilinx':
-        entity = pin_filename.split('.')[0]
-        print(f'Processing Xilinx part {entity}_{cad_instance}...')
+        entity = '{manufacturer:s}_{pin_filename:s}_{cad_instance}'.format(manufacturer=part_specific_data['manufacturer'],pin_filename=pin_filename.split('.')[0])
+        print(f'Processing Xilinx part {entity}...')
         pin_df = XilinxPinoutCSVParser(f'in/xlx/{pin_filename}')
     elif part_specific_data['manufacturer'] == 'intel':
-        entity = '{device:s}{package:s}'.format(device=pin_filename.split('.')[0],package=part_specific_data['package'])
-        print(f'Processing Intel part {entity}_{cad_instance}...')
+        entity = '{manufacturer:s}_{device:s}{package:s}_{cad_instance}'.format(device=pin_filename.split('.')[0],package=part_specific_data['package'],manufacturer=part_specific_data['manufacturer'],cad_instance=cad_instance)
+        print(f'Processing Intel part {entity}...')
         if 'xlsx' in pin_filename:
             pin_df = IntelPinoutXLSXParser(f'in/xlx/{pin_filename}',sheet_name='Pin List {package:s}'.format(package=part_specific_data['package']), package=part_specific_data['package'], skiprows=1, skipfooter=0, engine='openpyxl')
         elif 'xls' in pin_filename:
@@ -108,8 +108,8 @@ def PCBpy(part_specific_data, schem_data):
     print('Found {0:d} pins in schematics'.format(len(cad_pinout)))
 
     # checking consistence between pin names in XLX and CAD files
-    xlx_cad_info_filename = entity + '_' + cad_instance + '_XLX_CAD_info.txt'
-    xlx_cad_check_filename = entity + '_' + cad_instance + '_XLX_CAD_check.txt'
+    xlx_cad_info_filename = entity + '_XLX_CAD_info.txt'
+    xlx_cad_check_filename = entity + '_XLX_CAD_check.txt'
     f = open('out/' + xlx_cad_info_filename, 'w')  # information file
     c = open('out/' + xlx_cad_check_filename, 'w')  # information file
     # p_list = [PIN,NET_NAME_V,NET_NAME,PKG_PIN_NAME,INV_POL?]
@@ -192,14 +192,15 @@ def PCBpy(part_specific_data, schem_data):
         # XDC
     # generating xdc pinout files
     if part_specific_data['manufacturer'] == 'xilinx':
-        placing_fmt = 'set_property PACKAGE_PIN {0:4s} [get_ports {1:36s}] # pin name: {2:40s}{3:s}\n'
+        placing_fmt = '# vendor pin name: {2:40s}{3:s}\nset_property PACKAGE_PIN {0:4s} [get_ports {1:36s}]\n'
     elif part_specific_data['manufacturer'] == 'intel':
-        placing_fmt = 'set_location_assignment PIN_{0:4s} -to {1:36s} # pin name: {2:40s}{3:s}\n'
+        placing_fmt = '# vendor pin name: {2:40s}{3:s}\nset_location_assignment PIN_{0:4s} -to {1:36s}\n'
     # ports='entity {0:s} is\nport (\n'.format(entity+'_'+cad_instance)
     placings = ''
-    discarded = '\n' + 120 * '#' + '\n### {:^112} ###\n'.format('Non-constrained pins') + 120 * '#' + '\n\n';
+    discarded = '\n' + 120 * '#' + '\n### {:^112} ###\n'.format('Non-constrained pins') + 120 * '#' + '\n\nif 0 {\n';
     addinf = ['', 'POLARY INVERTED'];
     p_list.sort(key=lambda x: natural_keys(x[1]))  # human sorting port list
+    v_list = getVectors(p_list)
     for entry in p_list:
         cad_net_index = entry[1].split('<')[1].split('>')[0] if len(entry[1].split('<')) > 1 else False
         if cad_net_index:  # Is a vector?
@@ -221,9 +222,10 @@ def PCBpy(part_specific_data, schem_data):
                                          addinf[
                                              entry[
                                                  4]])
-        if entry[3].startswith(("GND", "VCC", "MGTVCC", "MGTAVTT", "POR_", "PUDC", "VREF")) or entry[2].startswith(
-                ("NC", "UNN", "VRP", "P1V", "GND")):
-            discarded += '# ' + placing
+        if any(i in entry[3] for i in ("GND", "VCC", "MGTVCC", "MGTAVTT", "POR_", "PUDC", "VREF")) \
+            or entry[2].startswith(("NC", "UNN", "VRP", "P1V", "GND")) \
+            or sum([entry[2] == i[2] for i in v_list]) > 1:
+            discarded += placing
         else:
             # p.write(placing)
             placings += placing
@@ -236,13 +238,14 @@ def PCBpy(part_specific_data, schem_data):
     v_list = getVectors(p_list)
     ports = ''
     for entry in v_list:
+        print(entry,sum([entry[2] == i[2] for i in v_list]))
         if entry[5] != '':  # Is a vector?
             # print entry[5]
-            port = '{0:20s} : inout std_logic_vector({1:d} downto {2:d});\n'.format(entry[2], entry[6], entry[5])
+            port = '{0:35s} : inout std_logic_vector({1:d} downto {2:d});\n'.format(entry[2], entry[6], entry[5])
         else:
-            port = '{0:20s} : inout std_logic;\n'.format('{0:s}'.format(entry[2]))
+            port = '{0:35s} : inout std_logic;\n'.format('{0:s}'.format(entry[2]))
         if not (entry[3].startswith(("GND", "VCC", "MGTVCC", "POR_", "PUDC", "VREF")) or entry[2].startswith(
-                ("NC", "UNN", "VRP", "P1V", "GND"))):
+                ("NC", "UNN", "VRP", "P1V", "GND")) or sum([entry[2] == i[2] for i in v_list]) > 1):
             ports += port
 
     genVHDLFile(entity, cad_instance, ports)
@@ -255,7 +258,7 @@ def PCBpy(part_specific_data, schem_data):
 
     path_fmt = 'get_hw_sio_gts {ibert_path:s}/IBERT/Quad_{quad:d}/MGT_X*Y{channel:d}'
     cmd_fmt = '# pin_name: {2:s} | net_name: {3:s}\nset_property PORT.{0:s}POLARITY 1 [{1:s}] \ncommit_hw_sio [{1:s}]\n'
-    tclpolarity_filename = entity + '_' + cad_instance + '_IBERT_SET_POLARITY.tcl'
+    tclpolarity_filename = entity + '_IBERT_SET_POLARITY.tcl'
     f = open('out/' + tclpolarity_filename, 'w')  # information file
     t_list = []
     ibertname = ''
@@ -419,7 +422,7 @@ def findcrefs(net, cad_content):
 
 
 def genVHDLFile(entity, cad_instance, ports):
-    xlx_cad_vhd_filename = entity + '_' + cad_instance + '.vhd'
+    xlx_cad_vhd_filename = entity + '.vhd'
     ## reading template
     with open('in/usr/template.vhd') as rf:
         template_vhd = rf.readlines()
@@ -427,11 +430,11 @@ def genVHDLFile(entity, cad_instance, ports):
     template_vhd = replaceFields(template_vhd, entity, xlx_cad_vhd_filename)
 
     v = open('out/' + xlx_cad_vhd_filename, 'w')  # ports info file
-    v.write(''.join(template_vhd[0:23]))
+    v.write(''.join(template_vhd[0:26]))
     # v.write('entity {0:s} is\nport (\n'.format(entity+'_'+cad_instance))
     # print ports
     v.write(ports[:-2] + '\n);\n')  # taking out newline and comma and ending port
-    v.write(''.join(template_vhd[24:]))
+    v.write(''.join(template_vhd[27:]))
     v.close()
 
 
@@ -440,7 +443,7 @@ def genPlacingFile(entity, cad_instance, placings, discarded, nPins, manufacture
         extension = '.xdc'
     if manufacturer == 'intel':
         extension = '.tcl'
-    xlx_cad_xdc_filename = entity + '_' + cad_instance + extension
+    xlx_cad_xdc_filename = entity + extension
 
     with open(f'in/usr/template{extension}') as rf:
         template_xdc = rf.readlines()
@@ -454,7 +457,7 @@ def genPlacingFile(entity, cad_instance, placings, discarded, nPins, manufacture
     p.write('# Inversion of polarity is indicated only in the negative port of a differential pair\n\n')
     p.write(placings)
     p.write(discarded)
-    p.write('# A total of {0:d} pins are listed in this file'.format(nPins))
+    p.write('}}\n# A total of {0:d} pins are listed in this file'.format(nPins))
     p.close()
 
 

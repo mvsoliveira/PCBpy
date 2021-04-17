@@ -65,6 +65,10 @@ conditions = [
     [anywhere, 'TDO'],
     [anywhere, 'TMS'],
     [anywhere, '12V'],
+    [anywhere, '3V3'],
+    [anywhere, '2V5'],
+    [anywhere, '1V8'],
+    [anywhere, '1V2'],
 ]
 
 for c in conditions:
